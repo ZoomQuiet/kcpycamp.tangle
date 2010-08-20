@@ -1,0 +1,4 @@
+﻿客户已在答疑后看了模版页面，前提出了以下小几点修改，同时对大部分功能作了肯定回答：
+1.Tracker（addtracker.html）添加只需IP、商品与所属组群信息。（Tracker名称去除，新增端口）
+2.组群信息总汇(tableview.html)中去掉多余信息(文件总汇信息)。列名称作小修改
+3.组群详细信息(mogfs_view.html)页的dev信息全拼到host中。简化tracker信息。

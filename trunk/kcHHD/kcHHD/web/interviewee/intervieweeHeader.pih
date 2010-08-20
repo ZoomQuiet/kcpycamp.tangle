@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+<%
+RESPONSE['Content-Type'] = "text/html; charset=utf-8"
+%>
+<title><%= title %></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<h2 align = 'center'><font size="7"><%= title %></font></h2>
+<style type="text/css">
+body, td { font-family: verdana, sans-serif;
+    font-size: 12px;
+    }
+
+table.main { border-width: 0px 0px 1px 1px;
+    border-color: #000000;
+    border-style: solid;
+    }
+
+td.main,th { border-width: 1px 1px 0px 0px;
+    border-color: #000000;
+    border-style: solid;
+    }
+</style>
+<table width="600" border="0" align="center">
+<tr>
+<td><a href="resume">填写简历</a></td>
+<td><a href="showResume">显示简历</a></td>
+<td><a href="modifyResume">修改简历</a></td>
+<td><a href="uploadresume">上传简历</a></td>
+<td><a href="calendar"> 查看日程</a></td>
+<td><a href="result"> 查看结果</a></td>
+<td><a href="resetPwd"> 修改密码</a></td>
+<td><a href="exit"> 退出系统</a></td>
+</tr>
+</table>
+</head>
+<body bgcolor="#99CCFF">
+

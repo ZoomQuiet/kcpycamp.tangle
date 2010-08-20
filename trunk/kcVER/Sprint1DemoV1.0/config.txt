@@ -1,0 +1,10 @@
+病毒英文名称:field_enname_value
+病毒长度:
+威胁级别:field_level_value
+关键词:
+影响系统:
+病毒类型:field_category_value
+感染途径:
+病毒简介:
+行为分析:field_remark_value
+

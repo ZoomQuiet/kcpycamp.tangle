@@ -1,0 +1,41 @@
+病毒英文名称: Win32.Adware.Agent.el.155648
+病毒长度: 49664
+威胁级别: ★
+关键词: 
+影响系统:win9x/winMe/winNT/win2000/winXP/win2003
+病毒类型: 广告软件
+感染途径: 
+
+病毒简介:
+
+这是一个广告软件，会修改注册表中关于浏览器的数据，弹出病毒作者指定的广告页面，干扰用户的正常工作。它的部分变种可能拥有远程控制或下载器的功能。
+
+行为分析:
+
+在磁盘中释放出以下文件:
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\FieleWay.txt
+
+会从以下注册表中读取信息:
+"HKCU\Software\Borland\Locales"
+"HKLM\Software\Borland\Locales"
+"HKCU\Software\Borland\Delphi\Locales"
+
+病毒会连接作者指定的网址:
+病毒会从 http://dd4.tesekl.info/not.exe 下载文件至本地计算机 c:\not.exe
+域名:"dd4.tesekl.info" 端口:80 (TCP)
+dd4.tesekl.info/not.exe
+
+在系统中创建了以下进程:
+"IEXPLORE.EXE""
+病毒会注入 IEXPLORE.EXE" 进程
+
+病毒会通过以下途径传播:
+病毒会利用网络进行传播
+
+病毒会连接作者指定的网址:
+http://cs.993311.com/anc.jpg
+域名:"cs.993311.com" 端口:80 (TCP)
+cs.993311.com/anc.jpg
+
+
+内部信息:自动工具

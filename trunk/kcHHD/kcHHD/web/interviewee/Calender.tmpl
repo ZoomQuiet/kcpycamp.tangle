@@ -1,0 +1,11 @@
+﻿<br><br><br><br><br><br><br><br>
+<table class="main" cellpadding="3" cellspacing="0" align="center" width="80%">
+<tr><th>序号</th><th>面试时间</th><th>面试地点</th></tr>
+#for $listItem in $CList:
+<tr>
+<td class="main">$listItem['no']</td><td class="main">$listItem['time']</td><td class="main">$listItem['place']</td>
+
+</tr>
+#end for
+</table>
+<p>

@@ -1,0 +1,35 @@
+开始使用 ansi 文件， 数据库使用 mysql 4.1 , 
+Django 设置为 DEFAULT_CHARSET = 'utf-8'
+默认为 utf8 编码，但查询数据库时，如果有中文就查不到结果, 因为发送的语句为 gb2312.
+ 
+于是修改 数据库编码为 gb2312 ,  重新导入数据. 此时查询中文还是出错， 后来搜索到是 mysqldb 中的问题 
+http://blog.donews.com/maverick/archive/2006/08/23/1012040.aspx 
+问题的根源似乎在于，MySQLdb的cursor在执行execute操作时，运行了如下代码(cursor.py第146行)：
+        charset = db.character_set_name()
+        query = query.encode(charset) # 可直接改为  "utf8" 可以不改， 看下面
+
+
+根据  http://blog.jjgod.org/2005/07/31/a-mysql-41-story/#more-51
+设置 
+SET character_set_client='utf8'
+SET character_set_connection='utf8'
+SET character_set_results='utf8'
+
+这个配置就等价于 SET NAMES 'utf8'。
+
+ 
+ 
+搜到 http://code.djangoproject.com/ticket/3151
+
+修改 D:\Python24\Lib\site-packages\django\db\backends\mysql\base.py
+搜索 kwargs.update(self.options)            self.connection = Database.connect(**kwargs)            cursor = self.connection.cursor()
+添加 if self.connection.get_server_info() >= '4.1':             cursor.execute("SET NAMES 'GB2312';")
+ 
+这样一来就好办了， 如果使用 DEFAULT_CHARSET = 'utf-8'; 修改为 cursor.execute
+("SET NAMES 'GB2312';SET character_set_results='utf8';")
+
+
+ 
+如果使用  DEFAULT_CHARSET = 'gb2312'; 修改为 cursor.execute("SET NAMES 'GB2312';")
+ 
+sqlyog 显示中文也容易了 , 执行 SET character_set_results='gb2312' 就可以.

@@ -1,0 +1,26 @@
+<div align="center">
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<font size="7">register</font>
+<form method="get" action="mianshi.pih" name="login"><p>&nbsp;</p><table width="300" border="1" height="201">
+<tbody><tr>
+<td align="right">&nbsp;name:</td>
+<td>&nbsp;<input type="text" maxlength="18" name="text2"></td></tr>
+<tr>
+<td align="center">&nbsp;password:</td>
+<td>&nbsp;<input type="text" maxlength="18" name="passqord"></td></tr>
+<tr>
+<td align="right">&nbsp;password:</td>
+<td>&nbsp;<input type="text" maxlength="18" name="confirmpassword"></td></tr>
+<tr>
+<td align="right">&nbsp;age:</td>
+<td>&nbsp;<input type="text" maxlength="2" name="age"></td></tr>
+<tr>
+<td align="right">&nbsp;school:</td>
+<td>&nbsp;<input type="text" maxlength="20" name="school"></td></tr>
+<tr>
+<td align="right">&nbsp;phone:</td>
+<td>&nbsp;<input type="text" maxlength="11" name="text8"></td></tr>
+<tr>
+<td align="right">&nbsp;QQ:</td>
+<td align="left">&nbsp;<input type="text" maxlength="15" name="qq"></td></tr><tr><td valign="top"><input type="submit" value="Submit" name="Submit"></td><td valign="top" align="center"><input type="reset" name="Reset"></td></tr>
+</tbody></table><p>&nbsp;</p><p>&nbsp;</p><p><br></p><p>&nbsp;</p><p>&nbsp;</p></form></div>

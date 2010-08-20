@@ -1,0 +1,38 @@
+﻿MogileFS文件系统简介
+
+Version 1.0 080820 创建
+Author BryanPG
+Brief MogileFS学习摘要
+
+[Structure]
+File：实际文件
+Key：一个命名空间下一个文件对应的唯一标识
+Domain(Namespace)：域（命名空间），用于解决文件映射冲突的问题，一个域下的Key是唯一的
+Class：Domain下的类，需有一个非空mindevcount值，表示隶属于该Class的文件所需副本的最小数量
+Host：存储结点，一般指一台主机，上面装有大量廉价的磁盘
+Device：Host上的设备。指一块硬盘或一个磁盘分区
+
+[Specialty]
+1. 文件属于类
+2. Tracker跟踪文件存储位置 
+3. 文件及副本在不同主机上存储 
+4. 使用MySQL统一存储集群分布信息 
+5. 使用大量廉价磁盘 
+
+[Properties]
+MogileFS 是一个开源的分布式文件系统。它包含以下特征属性：
+* Application level -- 无特殊内核模块需求。
+* No single point of failure -- MogileFS所有三个组成部分（存储结点、追踪器trackers）都可以运行在不同的机器上，故整个系统不会因单点故障而崩溃。即可以让同一台机器同时扮演追踪器（trackers）、存储结点（storage nodes）和数据库（tracker's database）。推荐至少使用两台机器。
+* Automatic file replication -- 每个文件都属于一个“类”，而基于这个“类（class）”的文件是会自动复制足够数量并分别存储在不同存储结点上，从而满足该“类”所规定的最小副本数量的要求。例如：对于一个JPEG文件，其所属的类规定至少要有三个副本，则该文件添加进MogileFS时会自动生成三个副本分别存储在不同的设备上。MogileFS通过这种方式避免不必要的冗余存储来减少磁盘上的开销。
+* "Better than RAID" -- 在一个非存储区域网络的RAID的结构中，磁盘是冗余的，而主机不是。若整台主机失效，则所有文件都无法访问。MogileFS将文件的多份副本分别存放在不同的存储结点上，故所有文件总是可用的。
+* Flat Namespace -- 所有文件都在一个全局的、一致的命名空间中被标记，也可以自由创建任意个命名空间，以此来避免在同一个MogileFS系统中多个应用潜在的健值冲突问题。
+* Shared-Nothing -- MogileFS不需要依靠昂贵的SAN来共享磁盘，每个机器只需维护好自己的磁盘。
+* No RAID required -- 存储结点使用的本地磁盘可以是做了RAID或者没有，如果是为了安全性着想的话RAID没有必要买了，因为MogileFS已经提供了。 
+* Local filesystem agnostic -- 存储结点使用的本地磁盘可以格式化为任意选择的格式（ext3，XFS等等）。MogileFS有其独有的内部路径散列方式，故不会触及到本地文件格式中的一些诸如“单个路径最大文件数”之类的限制。
+
+[References]
+Wikipedia: http://en.wikipedia.org/wiki/MogileFS
+Danga Website: http://www.danga.com/
+Google Group: http://groups.google.com/group/mogile
+HowToSetup: http://durrett.net/mogilefs_setup.html
+Official Wiki: http://mogilefs.pbwiki.com/

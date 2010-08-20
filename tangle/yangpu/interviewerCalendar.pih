@@ -1,0 +1,82 @@
+
+<html>
+<body>
+<h2 align = 'center'>check calendars</h2>
+<h3>
+<table width="80%" border="0" align="center">
+  <tr>
+    <td class="STYLE12"><span class="STYLE9"></span>interviewer: XXXX </td>
+    <td width="50%"><div align="center"><a href="interviewerpage.pih" class="STYLE11">homepage</a> <a href="login.pih" class="STYLE11">quit</a></div></td>
+  </tr>
+<table width="90%" border="0" align="center" cellspacing="8">
+  <tr bgcolor="#CCCCCC">
+    <th width="10%"><span class="STYLE19">NO</span></th>
+    <th width="30%">time</th>
+    <th width="20%">place<br></th>
+    <th colspan="2">control</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td width="10%">2008-8-10 2:30:00<br></td>
+    <td width="25%">XX office<br></td>
+    <td width="20%"><div align="center"><a href="interviewereditCalendar.pih">edit Canlendar</a></div></td>
+    <td width="20%">cancle<br></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+
+</h3>
+</body>
+</html>
+
+

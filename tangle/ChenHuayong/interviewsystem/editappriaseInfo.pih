@@ -1,0 +1,65 @@
+<html>
+<head>
+</head>
+
+<body>
+<div align='center'>
+<h2 align = 'center'><font size="7">AppriaseTable</font></h2>
+<table width="600" border="1" align="center">
+<tr>
+<td><a href="interviewercalendar.pih"> Calendar</a></td>
+<td><a href="ShowGroupOfUserList.pih"> Interviewee List</a></td>
+<td><a href="editappriaseInfo.pih"> AppriaseTable</a></td>
+<td><a href="interviewerinformation.pih"> Information</a></td>
+</tr>
+</table>
+
+<table border = "1" align = 'center' >
+  <tr>
+    <td> name </td><td><input name = 'intervieweename'></td><td>graduated from</td><td><input name = "school"></td><td>Speciality</td><td><input name = "zhuanye"></td>
+  </tr>
+  <tr>
+    <td> sex </td><td><input type = 'radio' name='male'>male <br><input type = 'radio' name='male'>female</td><td>knowledge</td>
+<td><input type = "radio" name='knowledge'>undergraduate<br><input type = "radio" name='knowledge'>master</td><td>date time</td><td><input name = "time"></td>
+  </tr>
+</table>
+
+<table width="50%" border="1" align="center" cellspacing="8">
+  <tr>
+    <th width="50%" bgcolor="#CCCCCC" scope="row">Program Ability<br></th>
+    <td cellspacing="8"> language<input name = 'language' ><br>arithmetic<input name ='arithmetic'><br>Debug Ability<input name = 'dbgAbility'></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">analysis Ability<br></th>
+    <td>modeling Ability<br>Program Building Ability</td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">complementarity</th>
+    <td>.<br>.<br>.<br></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">.<br></th>
+    <td></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">.<br></th>
+    <td></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">.<br></th>
+    <td></td>
+<tr>
+ <td align = 'center'>interviewer's advice <br>and signment</td>
+<td><textarea   name="name"   size="100"   style="color:   #800000;   height:120;width: 350;font-family:Verdana;font-size:8pt"></textarea></td>
+</tr><tr>
+<td>
+<div align='right'><a href=''>submit</a></div>
+</td>
+<td>
+<a href=''>edit</a>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

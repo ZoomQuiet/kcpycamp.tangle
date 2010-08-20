@@ -1,0 +1,30 @@
+病毒英文名称: VirusInRar
+病毒长度: 612018
+威胁级别: ★
+关键词: 
+影响系统:Win9x WinMe WinNT Win2000 WinXP Win2003
+病毒类型: 
+感染途径: 
+
+病毒简介:
+
+该病毒会在磁盘中释放出文件，会修改注册表。
+
+行为分析:
+
+在磁盘中释放出以下文件:
+C:\WINDOWS\TEMP\DRDld
+C:\temp\ole320
+
+会从以下注册表中读取信息:
+"HKCU\Software\Digital River\SoftwarePassport\Download Manager\6D819691A91425227871E34C84C221B5"
+
+在磁盘中创建以下配置文件:
+C:\WINDOWS\SYSTEM32\ddserh.dll.LoG	[dn]	"lt"	"c:\sample.exe"
+
+在系统中创建了以下进程:
+病毒创建了一个CLSID为 {7BF80980-BF32-101A-8BBB-00AA00300CAB} 类名为 IPicture 的 COM 组件
+
+病毒会通过以下途径传播:
+病毒会利用网络进行传播
+

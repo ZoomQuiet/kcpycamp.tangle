@@ -1,0 +1,119 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>面试者个人信息</title>
+</head>
+<body bgcolor="#99CCFF">
+
+<%
+from storm.locals import *
+from webapps.kcHHDTest.model.interviewee import *
+from webapps.kcHHDTest.model.user import *
+from webapps.kcHHDTest.model.db import *
+store = getStore()
+interviewee = store.find(Interviewee, Interviewee.UserID == 54).one()
+print interviewee.Email
+%>
+
+<form name="form1" method="post" action="../control/check.ks/check_modify_resume">
+<p></p>
+<p align="center"> <strong><font size="+7" face="Georgia, Times New Roman, Times, serif">个人简历如下</font></strong></p>
+  <table width="66%" height="1004" border="1" align="center" bgcolor="#6699CC">
+    <tr> 
+      <td height="29"><div align="center">填写日期</div></td>
+      <td colspan="3">&nbsp;</td>
+      <td colspan="2">编号</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="11%"><div align="center">姓名</div></td>
+      <td colspan="3"><input name="Name"   type="text" id="Name" maxlength="20" value="<%=interviewee.Name%>" disabled = true ></td>
+      <td width="7%"><div align="center">性别</div></td>
+      <td width="16%"><p> 
+          <input name="Sex" type="radio" value="0" checked>
+          男 
+          <input type="radio" name="Sex" value="1">
+          女 </p></td>
+      <td width="23%" rowspan="4">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><div align="center">学校</div></td>
+      <td colspan="3"><input name="School" type="text" id="School" maxlength="40" value="<%=interviewee.School%>" disabled = true></td>
+      <td> <div align="center">专业</div></td>
+      <td><input name="Subject" type="text" id="Subject" size="15" value="<%=interviewee.Subject%>" disabled = true ></td>
+    </tr>
+    <tr> 
+      <td height="20"><div align="center">年级</div></td>
+      <td colspan="3"><input name="Grade" type="text" id="Grade" value="<%=interviewee.Grade%>" disabled = true > </td>
+      <td><div align="center">联系电话</div></td>
+      <td><input name="Telephone" type="text" id="Telephon" size="15" value="<%=interviewee.Telephone%>" disabled = true ></td>
+    </tr>
+    <tr> 
+      <td><div align="center">身份证号</div></td>
+      <td colspan="3"><input name="CardID" type="text" id="CardID" value="<%=interviewee.CardID%>" disabled = true ></td>
+      <td><div align="center">籍贯</div></td>
+      <td><input name="Native" type="text" id="Native" size="15" value="<%=interviewee.Native%>" disabled = true ></td>
+    </tr>
+    <tr> 
+      <td height="29"><div align="center">家庭住址</div></td>
+      <td colspan="3"><input name="Addr" type="text" id="Addr" value="<%=interviewee.Addr%>" disabled = true ></td>
+      <td colspan="2"><div align="center">家庭联系电话</div></td>
+      <td>
+          <input name="AddrPhone" type="text" id="AddrPhone" size="15" value="<%=interviewee.AddrPhone%>" disabled = true >
+      </td>
+    </tr>
+    <tr> 
+      <td><div align="center">邮箱</div></td>
+      <td colspan="3"><input name="Email" type="text" id="Email" size="15" value="<%=interviewee.Email%>" disabled = true ></td>
+      <td colspan="2"><div align="center">QQ</div></td>
+      <td><div align="left"> 
+          <input name="QQ" type="text" id="QQ" size="15" value="<%=interviewee.QQ%>" disabled = true >
+        </div></td>
+    </tr>
+    <tr> 
+      <td height="55" colspan="2"> <p>外语水平(含英语四、六级成绩)</p>
+        </td>
+      <td colspan="2"><input name="ForeignLanguage" type="text" id="ForeignLanguage" value="<%=interviewee.ForeignLanguage%>" disabled = true ></td>
+      <td colspan="2"><div align="center">性格特点</div></td>
+      <td><div align="left"> 
+          <input name="Character" type="text" id="Character" size="15" value = "<%=interviewee.Character%>" disabled = true >
+        </div></td>
+    </tr>
+    <tr> 
+      <td><div align="center">程序设计相关比赛获奖情况</div></td>
+      <td colspan="6"><textarea name="Programming" cols="80" rows="5" id="Programming" disabled = true ><%=interviewee.Programming%></textarea></td>
+    </tr>
+    <tr> 
+      <td><div align="center">数学、物理相关比赛获奖情况</div></td>
+      <td colspan="6"><textarea name="MathAndPhysics" cols="80" rows="5" id="MathAndPhysics" disabled = true><%=interviewee.MathAndPhysics%></textarea></td>
+    </tr>
+    <tr> 
+      <td><div align="center">三号学生和奖学金获得情况</div></td>
+      <td colspan="6"><textarea name="Scholarships" cols="80" rows="5" id="Scholarships" disabled = true><%=interviewee.Scholarships%></textarea></td>
+    </tr>
+    <tr> 
+      <td><div align="center">项目开发经验(与C/C++ JAVA相关项目经验，注明每个项目的代码量)</div></td>
+      <td colspan="6"><textarea name="Project" cols="80" rows="5" id="Project" disabled = true><%=interviewee.Project%></textarea></td>
+    </tr>
+    <tr> 
+      <td><p align="center">干部任职情况(包括:校、院、班、社团)</p></td>
+      <td colspan="6"><textarea name="SchoolDuty" cols="80" rows="5" id="SchoolDuty" disabled = true><%=interviewee.SchoolDuty%></textarea></td>
+    </tr>
+    <tr> 
+      <td><p align="center">其他情况(兴趣爱好及其他情况说明)</p></td>
+      <td colspan="6"><textarea name="MoreInfo" cols="80" rows="5" id="MoreInfo" disabled = true><%=interviewee.MoreInfo%></textarea></td>
+    </tr>
+    <tr> 
+      <td><div align="center">您认为谁的编程能力不错(请在同学中推荐3-5人)</div></td>
+      <td colspan="6"><textarea name="Advice" cols="80" rows="5" id="Advice" disabled = true><%=interviewee.Advice%></textarea></td>
+    </tr>
+    <tr> 
+      <td colspan="7">       <div align="center">
+          <input type="submit" value="提交">
+          <input type="reset"  value="重置">
+        </div>
+          </td>
+  </table>
+<p>&nbsp;</p></form>
+</body>
+</html>

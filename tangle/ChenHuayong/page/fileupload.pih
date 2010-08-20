@@ -1,0 +1,20 @@
+<html>
+<body>
+<div align='center'>
+<font size="7">File upload</font>
+<table width="600" border="0" align="center">
+<tr>
+<td><a href="EnterResume.pih">|Enter resume|</a></td>
+<td><a href="modify.pih"> |Modify resume|</a></td>
+<td><a href="fileupload.pih">|UpLoad resume|</a></td>
+<td><a href="seecalendar.pih">|See calendar|</a></td>
+<td><a href="seeResult.pih">|See Result|</a></td>
+</tr>
+</table>
+<FORM ENCTYPE="multipart/form-data" ACTION="fileUpload.py" METHOD=POST>
+File to process: <INPUT NAME="myfile" TYPE="file">
+<INPUT TYPE="submit" VALUE="Send File"> </form>
+</body>
+</html>
+
+ 

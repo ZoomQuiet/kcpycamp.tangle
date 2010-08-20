@@ -1,0 +1,50 @@
+﻿<html>
+<head>
+<script language = "javaScript" src = "./interviewee.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户登陆</title>
+<LINK REL="stylesheet" HREF="css/szpay.css" TYPE="text/css">
+</head>
+<body>
+<center>
+<DIV id="nav" class="w" >
+<DIV class="l">
+</DIV>
+<DIV id="login" class="r">
+<a href="../web/interviewee/register.pih">注册</a>
+<a href="../loginout.pih">退出系统</a>
+</DIV>
+</DIV>
+<jsp:include page="../mBase/AD_928x90_top.jsp"/>
+
+<DIV id="forum" class="w">
+<H1>用户登陆</H1>
+<form method="post" action="../control/userControl.ks/login" name="form1" onsubmit="javascript: return check(this);"> 
+<DIV class="q">
+<DIV class="o">
+<BR /><BR />
+<b>用户帐户：</b><input type="text" name="id" class=o1 maxlength="15" id="userID" > <span class="cRed">*</span><BR />
+<b>用户密码：</b><input type="password" name="password" class=o1 id="password" >    <span class="cRed">*</span><BR />
+<b>选择类型：</b><select single name="userType">
+  <option value="interviewee">Interviewee
+  <option value="interviewer">Interviewer
+  <option value="admin">Admin
+  <option value="assistant">Assistant
+  </select><span class="cRed">*</span><BR/>
+<p>
+<div align="left">
+<input class="p"  type="submit" value="登陆">
+<input class="p" type="reset" value="重新填写">
+</div>
+
+<BR /><BR /><BR />
+</DIV>
+</DIV>
+</form>
+</DIV>
+</body>
+</html>
+
+
+
+

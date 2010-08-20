@@ -1,0 +1,57 @@
+<html>
+<head>
+</head>
+
+<body>
+<table width="80%" border="0" align="center">
+  <tr>
+    <td align = 'center'><h1>AppriaseTable: </h1></td>
+    <td width="50%"><div align="right"><a href="interviewerPage.pih">homepage   </a></td>
+  </tr>
+</table>
+
+<table border = "1" align = 'center' >
+  <tr>
+    <td> name </td><td><input name = 'intervieweename'></td><td>graduated from</td>
+    <td><input name = "school"></td><td>Speciality</td><td><input name = "zhuanye"></td>
+  </tr>
+  <tr>
+    <td> sex </td><td><input type = 'radio' name = 'male'>male <br><input type = 'radio' name = 'male'>female</td>
+    <td>knowledge</td><td><input type = 'radio' name = 'xueli'>undergraduate<br><input type = 'radio' name = 'xueli'>master</td>
+    <td>date time</td><td><input name = "time"></td>
+  </tr>
+</table>
+
+<table width="50%" border="1" align="center" cellspacing="8">
+  <tr>
+    <th width="50%" bgcolor="#CCCCCC" scope="row">Program Ability<br></th>
+    <td cellspacing="8"> language<input name = 'language' ><br>arithmetic<input name ='arithmetic'><br>Debug Ability<input name = 'dbgAbility'></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">analysis Ability<br></th>
+    <td>modeling Ability<br>Program Building Ability</td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">complementarity</th>
+    <td>.<br>.<br>.<br></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">.<br></th>
+    <td></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">.<br></th>
+    <td></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">.<br></th>
+    <td></td>
+
+</table>
+<table width = "50%" border ='1' align = 'center' >
+ <td align = 'center'>interviewer's advice <br>and signment</td><td><textarea   name="name"   size="100"   style="color:   #800000;   height:120;width: 350;font-family:Verdana;font-size:8pt"></textarea></td>
+
+</table>
+
+</body>
+</html>

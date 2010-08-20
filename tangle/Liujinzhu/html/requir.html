@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>答题分数统计器--需求报告</title>
+<link href="KCEAR.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="head">
+    	    	<div class="title">
+        	<span><img src="title.jpg" />
+        </div>
+        <div class="menu">
+            <div class="item"><a href="index.html">分数浏览</a></div>
+            <div class="item"><a href="#">数据筛选</a></div>
+            <div class="item"><a href="#">统计功能</a></div>
+            <div class="item"><a href="plan.html">开发计划</a></div>
+            <div class="item"><a href="requir.html">需求报告</a></div>
+            <div class="item"><a href="model.html">UML用例图</a></div>
+          <div class="topbutton"><a href="#">用户登陆</a>&nbsp;<a href="#">关于本系统</a>&nbsp;</div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+           	<div class="menu">
+            	<div class="item"><a href="#">菜单项</a></div>
+                
+            </div>
+        </div>
+        <div class="main">
+          <div >
+            <p >项目名称：答题试卷统计器 </p>
+            <p >&nbsp;指标 </p>
+            <p >可充分配置的&nbsp; </p>
+            <p >可作为外部挂件,联接到其它系统中的&nbsp; </p>
+            <p >可支持中文的&nbsp; </p>
+            <p >可批量生成图表的&nbsp; </p>
+            <p >可以对连续几天的相同数据进行图表的忽略处置,即:&nbsp; </p>
+            <p >如果&nbsp;路人甲&nbsp;周1/2/3/4&nbsp;的成绩没有变化,则图表中就不用显示周2/3&nbsp;的成绩,直接将周1和周4&nbsp;间给出直线就好&nbsp; </p>
+            <p >输入 </p>
+            <p >先导条件&nbsp; </p>
+            <p >无&nbsp; </p>
+            <p >进入数据&nbsp; </p>
+            <p >训练营问卷系统DB中有关成绩相关条目&nbsp; </p>
+            <p >参考接口&nbsp; </p>
+            <p >ADoDB&nbsp;以及其它ORM&nbsp;支持框架&nbsp; </p>
+            <p >加工 </p>
+            <p >&nbsp; </p>
+            <p >有效检查&nbsp; </p>
+            <p >不用&nbsp; </p>
+            <p >数据操作&nbsp; </p>
+            <p >根据配置,实时组织DB条目成图表用数据&nbsp; </p>
+            <p >输出检查&nbsp; </p>
+            <p >暂无&nbsp; </p>
+            <p >输出 </p>
+            <p >输出数据&nbsp; </p>
+            <p >系列训练营C/C++问卷成绩图表&nbsp; </p>
+            <p >以成员线索&nbsp; </p>
+            <p >学员每天成绩变化趋势图表&nbsp; </p>
+            <p >学员每周成绩变化趋势图表&nbsp; </p>
+            <p >以训练营线索&nbsp; </p>
+            <p >训练营每天成绩总分变化趋势柱图&nbsp; </p>
+            <p >训练营每周成绩总分变化趋势柱图&nbsp; </p>
+            <p >图表要求:&nbsp; </p>
+            <p >都可以选择&nbsp;2D/3D&nbsp;模式输出&nbsp; </p>
+            <p >趋势图,以线条串成,每个数据节点都可以点击进入查阅细节&nbsp; </p>
+            <p >柱图,包含组成数据的学员数据&nbsp; </p>
+            <p >参考接口&nbsp; </p>
+            <p >各种图表生成工具&nbsp; </p>
+            <p >检验 </p>
+            <p >demo演示流程&nbsp; </p>
+            <p >先确立DB存在/向实验DB中灌入合适的数据&nbsp; </p>
+            <p >开始页面给出不同线索的图表观察入口&nbsp; </p>
+            <p >分别点击进入后,就可以看到对应的图表&nbsp; </p>
+            <p >对DB直接进行测试用数据变更&nbsp; </p>
+            <p >刷新图表页面/或是点击刷新按钮,立即可以获得最新的统计图表&nbsp; </p>
+            <p >需求分析 </p>
+            <p >&nbsp;&nbsp;&nbsp;&nbsp;通过域名访问一个MySQl数据库,对数据库进行查询,对查询的成绩进行统计,并返回给我们一个统计后的图表页面. </p>
+            <p >&nbsp;&nbsp;&nbsp;&nbsp;需要的环境:&nbsp;一个MySQL的数据库的表结构,一个域名. </p>
+            <p >模拟实现方法:&nbsp;由于不能真正访问我们实现中的数据库,我们根据DBA提供的数据库的表结构在我们的某台主机上建立数据库,跟SA申请一个域名和一个主机空间.在另外的一台主机通过域名进行访问. </p>
+          </div>
+        </div>
+</div>
+    <div class="bottom">
+    	<p>Powered by KCEAR小组</p>
+        <p>2008.08.13</p>
+    </div>
+</body>
+</html>

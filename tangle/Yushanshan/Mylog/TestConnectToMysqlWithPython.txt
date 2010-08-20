@@ -1,0 +1,54 @@
+测试使用python连接mysql
+1、安装mysql-essential-5.0.51b-win32.msi
+2、安装navicat8_mysql_en.exe
+3、安装MySQL-python-1.2.2.win32-py2.5.exe
+
+在数据库中间表：
+代码如下
+/*
+MySQL Data Transfer
+Source Host: localhost
+Source Database: kchhd
+Target Host: localhost
+Target Database: kchhd
+Date: 2008-8-6 21:10:14
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `User_ID` int(11) unsigned NOT NULL,
+  `User_type` tinyint(4) default NULL,
+  `User_name` varchar(255) NOT NULL,
+  `User_password` varchar(255) default NULL,
+  `User_department` varchar(255) default NULL,
+  PRIMARY KEY  (`User_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records 
+-- ----------------------------
+INSERT INTO `user` VALUES ('1', '1', 'sara', '123', '训练营');
+
+
+测试连接代码如下：
+
+>>> import MySQLdb 
+>>> conn = MySQLdb.connect (host = "localhost", user = "root", passwd = "123456", db = "kchhd")  
+>>> curson = conn.cursor()
+>>> curson.execute("select * from user")
+0L
+#这里很奇怪，读不到数据库中已经有的信息
+
+>>> str = """insert into user(User_ID, User_name) values('123', 'sasa')"""
+>>> curson.execute(str)
+>>> ss = "select User_name from user where User_ID='123'"
+>>> curson.execute(ss)
+>>> curson.scroll(0)
+>>> row1 = curson.fetchone()
+>>> row1
+(123L, None, 'sasa', None, None)
+# 疑问，新插入的数据，在数据中找不到，但是在这里就可以select到，在数据库中的数据，在这里select不到。

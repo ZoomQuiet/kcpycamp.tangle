@@ -1,0 +1,47 @@
+<html>
+<body>
+
+<div align='center'>
+<h2 align = 'center'><font size="7">Interviewee List</font></h2>
+<table width="600" border="1" align="center">
+<tr>
+<td><a href="interviewercalendar.pih"> Calendar</a></td>
+<td><a href="ShowGroupOfUserList.pih"> Interviewee List</a></td>
+<td><a href="editappriaseInfo.pih"> AppriaseTable</a></td>
+<td><a href="interviewerinformation.pih"> Information</a></td>
+</tr>
+</table>
+<h3>
+
+  <p><br>
+<table width="80%" border="0" align="center" cellspacing="8">
+<div align="center">
+  <tr bgcolor="#CCCCCC">
+    <th width="10%">NO.</th>
+    <th width="25%">ID<br></th>
+    <th width="25%">Name<br></th>
+    <th width="25%">Department<br></th>
+    <th colspan="2">Operate</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>0001<br></td>
+    <td>sara<br></td>
+    <td>SoftEnterprise<br></td>
+    <td><a href="showIntervieweeInfoToInterviewer.pih">showInfo</a><br></td>
+    <td><a href="InterviewerorderInterview.pih">orderInterview</a><br></td>
+  </tr>
+   <tr>
+    <td>02</td>
+    <td>0011<br></td>
+    <td>yangpu<br></td>
+    <td>SoftEnterprise<br></td>
+    <td>showInfo<br></td>
+    <td>orderInterview<br></td>
+  </tr>
+</div>
+</body>
+</html>
+
+
+

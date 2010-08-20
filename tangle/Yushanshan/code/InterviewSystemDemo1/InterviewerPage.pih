@@ -1,0 +1,39 @@
+
+<head>
+    <title>InterviewSystem</title>
+    <link rel="stylesheet" type="text/css" HREF="k_base.css">
+</head>
+<h3>InterviewerPage</h3>
+
+<table width="80%" border="0" align="center">
+  <tr>
+    <td class="STYLE12"><div align="center"><span class="STYLE9">面试官</span>：xxxxx  </td>
+    
+  </tr>
+  <tr>
+  <td width="50%"><div align="center"><span class="STYLE11"><a href="interviewerCalendar.html">查看个人日程</a></span></div></td>
+  </tr>
+   <tr>
+ <td width="50%"><div align="center"><span class="STYLE11"><a href="interviewedList.html">查看应聘者信息</a></span></div></td>
+  
+  </tr>
+  <tr>
+ <td width="50%"><div align="center"><span class="STYLE11"><a href="editAppraisal.html">管理评议表</a></span></div></td>
+  
+  </tr>
+  <tr>
+   <td width="50%"><div align="center"> <a href="interviewerInfo.html" class="STYLE11">修改个人信息</a></div></td>
+  
+  </tr>
+ <td width="50%"><div align="center"> <a href="index.html" class="STYLE11">退出</a></div></td>
+  
+  </tr>
+</table>
+
+
+<% 
+Include("k_tabs.hip",
+    labels=["Interviewee Info","Order Interview Calendars","Review Table"],
+    urls=["a.pih","b.pih","c.pih"],
+    targetUrl="InterviewerPage.pih")
+%>

@@ -1,0 +1,35 @@
+<html>
+<body>
+
+<table width="80%" border="0" align="center">
+  <tr>
+    <td></span><h1>Show AppriaseTable List: </h1></td>
+    <td width="50%"><div align="center"><a href="AssistantPage.pih">homepage</a></td>
+  </tr>
+</table>
+<br><br><br>
+<div align ='center'><a href="addAppriaseTable.pih">add AppraiseTable</a></div>
+  <p><br><br><br>
+<table width="50%" border="0" align="center" cellspacing="8">
+<div align="center">
+  <tr bgcolor="#CCCCCC">
+    <th width="25%">NO.</th>
+    <th width="50%">Name<br></th>
+    <th>Operate</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>AppriaseTable1<br></td>
+    <td><a href="appriaseInfo.pih">show</a><br></td>
+  </tr>
+   <tr>
+    <td>02</td>
+    <td>AppriaseTable1<br></td>
+    <td>show<br></td>
+  </tr>
+</div>
+</body>
+</html>
+
+
+

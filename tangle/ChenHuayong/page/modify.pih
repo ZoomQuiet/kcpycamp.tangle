@@ -1,0 +1,58 @@
+<div align='center'>
+<font size="7">Modify</font>
+<table width="600" border="0" align="center">
+<tr>
+<td><a href="EnterResume.pih">|Enter resume|</a></td>
+<td><a href="modify.pih"> |Modify resume|</a></td>
+<td><a href="fileupload.pih">|UpLoad resume|</a></td>
+<td><a href="seecalendar.pih">|See calendar|</a></td>
+<td><a href="seeResult.pih">|See Result|</a></td>
+</tr>
+</table>
+
+<form method="get" name="resume" action = 'checkModity.pih'><p>&nbsp;</p><table width="571" border="1" height="277">
+<tbody><tr>
+<td align="right">name£º<br></td>
+<td>&nbsp;<input type="text" maxlength="10" name="name" value = "huangjian"></td>
+<td align="right">&nbsp;sex:</td>
+<td>&nbsp;<input type="radio" checked="checked" value="BOY" name="sex">boy <input type="radio" name="sex">girl</td></tr>
+<tr>
+<td align="right">&nbsp;school:</td>
+<td>&nbsp;<input type="text" maxlength="20" name="school" value = ¡°BeiJing"></td>
+<td align="right">&nbsp;speciality:</td>
+<td>&nbsp;<input type="text" maxlength="20" name="speciality" value = "Computer"></td></tr>
+<tr>
+<td align="right">&nbsp;grade£º</td>
+<td>&nbsp;<input type="text" maxlength="4" name="grade" value = "2004"></td>
+<td align="right">&nbsp;phone:</td>
+<td>&nbsp;<input type="text" maxlength="11" name="phone" value = "13726285647"></td></tr>
+<tr>
+<td align="right">identity card:&nbsp;</td>
+<td>&nbsp;<input type="text" maxlength="18" name="identity card" value = "440882198511250316" ></td>
+<td align="right">native place:</td>
+<td>&nbsp;<input type="text" maxlength="15" name="native place" value = "Guang Dong"></td></tr>
+<tr>
+<td align="right">Address :</td>
+<td>&nbsp;<input type="text" maxlength="50" name="address" value = "Guang Dong"></td>
+<td align="right">home phone:</td>
+<td>&nbsp;<input type="text" maxlength="11" name="home" value = "0759-2178090"></td></tr>
+<tr>
+<td align="right">Email:&nbsp;</td>
+<td>&nbsp;<input type="text" maxlength="30" name="email" value = "dizhisha@163.com"></td>
+<td align="right">QQ:</td>
+<td>&nbsp;<input type="text" maxlength="15" name="qq" value = "171109839"></td></tr>
+<tr>
+<td align="right">English Level:&nbsp;</td>
+<td>&nbsp;<input type="text" maxlength="10" name="english" value = "4"></td>
+<td align="right">character:</td>
+<td>&nbsp;<input type="text" maxlength="50" name="character" value = "play"></td></tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;<input type="submit" name="Commit"></td>
+<td>&nbsp;<input type="reset" value="Reset" name="Reset"></td>
+<td>&nbsp;</td></tr>
+</tbody></table><p>&nbsp;</p></form> 
+     </body>
+</html> 

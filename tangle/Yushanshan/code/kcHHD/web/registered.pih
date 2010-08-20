@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script language = "javaScript" src = "./js/check.js" type="text/javascript"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
+<title>面试者注册</title>
+</head>
+<body bgcolor="#99CCFF">
+<table width="803" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutDefaultTable-->
+  <tr> 
+    <td width="392" height="175">&nbsp;</td>
+   <td width="411"><h1 align="center"><font size="7"> 面试者注册</font></h1></td>
+  </tr>
+  <tr>
+    <td height="164">&nbsp;</td>
+    <td valign="top"><form name="form1" method="post" action="../control/check.ks/check_register" onsubmit="return check(this);">
+        <table width="83%" height="152" border="1" align="center" bgcolor="#6699CC">
+          <tr> 
+            <td width="26%"><div align="right">登陆ID:</div></td>
+            <td width="74%"><input name="id" type="text" id="name" size="30"></td>
+          </tr>
+          <tr> 
+            <td width="26%"><div align="right">姓名:</div></td>
+            <td width="74%"><input name="name" type="text" id="name" size="30"></td>
+          </tr>
+          <tr> 
+            <td><div align="right">密码:</div></td>
+            <td><input name="password" type="password" id="password" size="30"></td>
+          </tr>
+          <tr> 
+            <td><div align="right">确认密码:</div></td>
+            <td><input name="cpassword" type="password" id="cpassword" size="30"></td>
+          </tr>
+          <tr> 
+                  <td colspan="2"><div align="center">
+          <input type="submit" value="提交" onclick="check()">
+          <input type="reset"  value="重置">
+        </div></td>
+          </tr>
+        </table>
+      </form></td>
+  </tr>
+</table>
+</body>
+</html>

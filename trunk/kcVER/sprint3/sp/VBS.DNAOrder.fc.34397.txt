@@ -1,0 +1,33 @@
+病毒英文名称: VBS.DNAOrder.fc.34397
+病毒长度: 37300
+威胁级别: ★
+关键词:  11aaa,PSWInfos,1b,Mirbaby,关闭窗口
+影响系统:win9x/winMe/winNT/win2000/winXP/win2003
+病毒类型: 
+感染途径: 
+
+病毒简介:
+
+这是一个脚本病毒。会在磁盘中释放出文件，会修改注册表。
+
+行为分析:
+
+在磁盘中释放出以下文件:
+C:
+C:\WINDOWS
+C:\WINDOWS\__tmp_rar_sfx_access_check_838121
+C:\WINDOWS\rxjhv200.15\pic.txt
+rxjhv200.15
+
+在磁盘中删除了以下文件:
+__tmp_rar_sfx_access_check_838121
+
+会从以下注册表中读取信息:
+"HKLM\Software\Microsoft\MacAddress"
+
+在系统中创建了以下进程:
+病毒尝试打开 CLSID 为  {00000005-0000-0000-2C00-000094590500} 的组件
+
+病毒会通过以下途径传播:
+病毒会利用网络进行传播
+

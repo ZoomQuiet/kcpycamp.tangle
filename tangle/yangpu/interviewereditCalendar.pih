@@ -1,0 +1,40 @@
+
+<html>
+<body>
+
+<table width="80%" border="0" align="center">
+  <tr>
+    <td></span><h1>Group Of March: </h1></td>
+    <td width="50%"><div align="center"><a href="interviewerpage.pih">homepage</a></td>
+  </tr>
+</table>
+
+<div align="center">
+  <p><br>
+
+
+<table width="50%" border="0" align="center" cellspacing="8">
+  <tr>
+    <th width="50%" bgcolor="#CCCCCC" scope="row">time<br></th>
+    <td><input name="textfield" type="text" value="2008-8-10 3:00PM"></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">contact<br></th>
+    <td><input name="textfield2" type="text" value='miss right'></td>
+  </tr>
+
+  <tr>
+    <th scope="row"> <div align="right">
+    <a href = "interviewercalendar.pih">save</a></div></th>
+    <td><div align="left">
+    <a href = "interviewereditcalendar.pih">reset</a>
+     </div></td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

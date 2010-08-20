@@ -1,0 +1,30 @@
+<br><br><br>
+<div align='center'>
+<table width="75%" border="1">
+
+<tr><th  colspan="2">评审项目</th><th>问题记录(输入问题编号或自选问题)</th><th>反馈记录</th><th>评分</th><th  colspan="2">操作</th>
+#for $tt in $TTList:
+#set $rowpan = len($tt)
+#for $st in $tt
+  <tr> 
+#if $st == $tt[0]
+    <div align='center'>
+    <td rowspan="$rowpan">$st[1]</td>
+#else
+    <td>$st[1]</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+
+<td class="main"><a href="../../control/assistant.ks/removeTitle?ID=$st[0]">
+删除</a></td>
+<td class="main"><a href="../../control/assistant.ks/editIntervieweeInfo?ID=$$st[0]">
+修改信息</a></td>
+</div>
+</tr>
+#end if
+#end for
+#end for 
+
+</table>
+</div>

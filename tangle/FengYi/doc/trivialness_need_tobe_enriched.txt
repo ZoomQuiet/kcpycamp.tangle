@@ -1,0 +1,35 @@
+﻿0. Constructure
+0.1 Clients : Use API (Python, Perl etc.)
+0.2 Trackers : 
+  0.2.1 mogilefsd
+  0.2.2 Allqueries
+  0.2.3 Maintenance
+0.3 Storage Nodes
+  0.3.1 mogstored
+  0.3.2 Just HTTP/DAV server
+  0.3.3 Abundant cheap disks
+0.4 Database most important part, also is the choke point
+
+1. 
+[Problem:]
+Failed to load MogileFS::Store::MySQL: Can't locate DBD/mysql.pm in @INC (@INC contains: lib /usr/local/lib/perl5/5.8.8/i686-linux /usr/ local/lib/perl5/5.8.8 /usr/local/lib/perl5/site_perl/5.8.8/i686-linux /usr/local/lib/perl5/site_perl/5.8.8 /usr/local/lib/perl5/site_perl .) at /usr/local/lib/perl5/site_perl/5.8.8/MogileFS/Store/MySQL.pm line 5. 
+BEGIN failed--compilation aborted at /usr/local/lib/perl5/site_perl/ 
+5.8.8/MogileFS/Store/MySQL.pm line 5. 
+Compilation failed in require at (eval 4) line 1. 
+BEGIN failed--compilation aborted at (eval 4) line 1. 
+[Solution:]
+install/confirm DBD/MySQL perl package exists under lib/perl/... 
+
+2.
+[Problem:] ??? Details needed
+Potential memory leaks in Perlbal/mogstored [fixed]
+[Sulution:] ??? Details needed
+Using apache, nginx, or lighttpd solves that problem.
+
+3. mogilefs's fsck using MD5 checksums to verify the file contents
+
+4. 在Device的status切换中不能直接将status从dead切换成alive，必须先标记为down
+
+5. 在增加设备时必须以devN来命名，其中N是设备的id。
+
+

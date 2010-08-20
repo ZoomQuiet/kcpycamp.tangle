@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+<title>答题分数统计器</title>
+</head>
+<body>
+<h2>成绩表</h2>
+<table border"1">
+  <tr><th>ID</th><th>姓名</th><th>得分</th></tr>
+ {% for user in list %}
+   <tr>
+   <td>{{ user.id }}</td>
+   <td>{{ user.name }}</td>
+   <td>{{ user.mark }}</td>
+   </tr>
+ {% endfor %}
+</table>
+<p><a href="/csv/address/">csv格式下载</a></p>
+<img src = "images/title.jpg">
+</body>
+</html>

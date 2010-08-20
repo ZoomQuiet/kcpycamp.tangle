@@ -1,0 +1,175 @@
+﻿MogileFS系统数据库
++----------------------+
+| Tables_in_mogilefs   |
++----------------------+
+| class                | 
+| device               | 
+| domain               | 
+| file                 | 
+| file_on              | 
+| file_on_corrupt      | 
+| file_to_delete       | 
+| file_to_delete_later | 
+| file_to_replicate    | 
+| fsck_log             | 
+| host                 | 
+| server_settings      | 
+| tempfile             | 
+| unreachable_fids     | 
++----------------------+
+
+
+----> describe class;
++-------------+----------------------+------+-----+---------+-------+
+| Field       | Type                 | Null | Key | Default | Extra |
++-------------+----------------------+------+-----+---------+-------+
+| dmid        | smallint(5) unsigned | NO   | PRI | NULL    |       | 
+| classid     | tinyint(3) unsigned  | NO   | PRI | NULL    |       | 
+| classname   | varchar(50)          | YES  |     | NULL    |       | 
+| mindevcount | tinyint(3) unsigned  | NO   |     | NULL    |       | 
++-------------+----------------------+------+-----+---------+-------+
+
+
+
+----> describe device;
++----------+------------------------------------------------+------+-----+---------+-------+
+| Field    | Type                                           | Null | Key | Default | Extra |
++----------+------------------------------------------------+------+-----+---------+-------+
+| devid    | mediumint(8) unsigned                          | NO   | PRI | NULL    |       | 
+| hostid   | mediumint(8) unsigned                          | NO   |     | NULL    |       | 
+| status   | enum('alive','dead','down','readonly','drain') | YES  | MUL | NULL    |       | 
+| weight   | mediumint(9)                                   | YES  |     | 100     |       | 
+| mb_total | mediumint(8) unsigned                          | YES  |     | NULL    |       | 
+| mb_used  | mediumint(8) unsigned                          | YES  |     | NULL    |       | 
+| mb_asof  | int(10) unsigned                               | YES  |     | NULL    |       | 
++----------+------------------------------------------------+------+-----+---------+-------+
+
+
+
+----> describe domain;
++-----------+----------------------+------+-----+---------+-------+
+| Field     | Type                 | Null | Key | Default | Extra |
++-----------+----------------------+------+-----+---------+-------+
+| dmid      | smallint(5) unsigned | NO   | PRI | NULL    |       | 
+| namespace | varchar(255)         | YES  | UNI | NULL    |       | 
++-----------+----------------------+------+-----+---------+-------+
+
+----> describe  file;
++----------+----------------------+------+-----+---------+-------+
+| Field    | Type                 | Null | Key | Default | Extra |
++----------+----------------------+------+-----+---------+-------+
+| fid      | int(10) unsigned     | NO   | PRI | NULL    |       | 
+| dmid     | smallint(5) unsigned | NO   | MUL | NULL    |       | 
+| dkey     | varchar(255)         | YES  |     | NULL    |       | 
+| length   | int(10) unsigned     | YES  |     | NULL    |       | 
+| classid  | tinyint(3) unsigned  | NO   |     | NULL    |       | 
+| devcount | tinyint(3) unsigned  | NO   |     | NULL    |       | 
++----------+----------------------+------+-----+---------+-------+
+
+
+----> describe  file_on;
++-------+-----------------------+------+-----+---------+-------+
+| Field | Type                  | Null | Key | Default | Extra |
++-------+-----------------------+------+-----+---------+-------+
+| fid   | int(10) unsigned      | NO   | PRI | NULL    |       | 
+| devid | mediumint(8) unsigned | NO   | PRI | NULL    |       | 
++-------+-----------------------+------+-----+---------+-------+
+
+
+----> describe file_on_corrupt;
++-------+-----------------------+------+-----+---------+-------+
+| Field | Type                  | Null | Key | Default | Extra |
++-------+-----------------------+------+-----+---------+-------+
+| fid   | int(10) unsigned      | NO   | PRI | NULL    |       | 
+| devid | mediumint(8) unsigned | NO   | PRI | NULL    |       | 
++-------+-----------------------+------+-----+---------+-------+
+
+
+----> describe  file_to_delete;
++-------+------------------+------+-----+---------+-------+
+| Field | Type             | Null | Key | Default | Extra |
++-------+------------------+------+-----+---------+-------+
+| fid   | int(10) unsigned | NO   | PRI | NULL    |       | 
++-------+------------------+------+-----+---------+-------+
+
+
+
+----> describe file_to_delete_later;
++----------+------------------+------+-----+---------+-------+
+| Field    | Type             | Null | Key | Default | Extra |
++----------+------------------+------+-----+---------+-------+
+| fid      | int(10) unsigned | NO   | PRI | NULL    |       | 
+| delafter | int(10) unsigned | NO   | MUL | NULL    |       | 
++----------+------------------+------+-----+---------+-------+
+
+
+----> describe file_to_replicate;
++-----------+----------------------+------+-----+---------+-------+
+| Field     | Type                 | Null | Key | Default | Extra |
++-----------+----------------------+------+-----+---------+-------+
+| fid       | int(10) unsigned     | NO   | PRI | NULL    |       | 
+| nexttry   | int(10) unsigned     | NO   | MUL | NULL    |       | 
+| fromdevid | int(10) unsigned     | YES  |     | NULL    |       | 
+| failcount | tinyint(3) unsigned  | NO   |     | 0       |       | 
+| flags     | smallint(5) unsigned | NO   |     | 0       |       | 
++-----------+----------------------+------+-----+---------+-------+
+
+
+----> describe fsck_log;
++--------+-----------------------+------+-----+---------+----------------+
+| Field  | Type                  | Null | Key | Default | Extra          |
++--------+-----------------------+------+-----+---------+----------------+
+| logid  | int(10) unsigned      | NO   | PRI | NULL    | auto_increment | 
+| utime  | int(10) unsigned      | NO   | MUL | NULL    |                | 
+| fid    | int(10) unsigned      | YES  |     | NULL    |                | 
+| evcode | char(4)               | YES  |     | NULL    |                | 
+| devid  | mediumint(8) unsigned | YES  |     | NULL    |                | 
++--------+-----------------------+------+-----+---------+----------------+
+
+
+----> describe  host;
++---------------+-----------------------------+------+-----+---------+-------+
+| Field         | Type                        | Null | Key | Default | Extra |
++---------------+-----------------------------+------+-----+---------+-------+
+| hostid        | mediumint(8) unsigned       | NO   | PRI | NULL    |       | 
+| status        | enum('alive','dead','down') | YES  |     | NULL    |       | 
+| http_port     | mediumint(8) unsigned       | YES  |     | 7500    |       | 
+| http_get_port | mediumint(8) unsigned       | YES  |     | NULL    |       | 
+| hostname      | varchar(40)                 | YES  | UNI | NULL    |       | 
+| hostip        | varchar(15)                 | YES  | UNI | NULL    |       | 
+| altip         | varchar(15)                 | YES  | UNI | NULL    |       | 
+| altmask       | varchar(18)                 | YES  |     | NULL    |       | 
++---------------+-----------------------------+------+-----+---------+-------+
+
+
+----> describe server_settings;
++-------+--------------+------+-----+---------+-------+
+| Field | Type         | Null | Key | Default | Extra |
++-------+--------------+------+-----+---------+-------+
+| field | varchar(50)  | NO   | PRI | NULL    |       | 
+| value | varchar(255) | YES  |     | NULL    |       | 
++-------+--------------+------+-----+---------+-------+
+
+
+----> describe tempfile;
++------------+----------------------+------+-----+---------+----------------+
+| Field      | Type                 | Null | Key | Default | Extra          |
++------------+----------------------+------+-----+---------+----------------+
+| fid        | int(10) unsigned     | NO   | PRI | NULL    | auto_increment | 
+| createtime | int(10) unsigned     | NO   |     | NULL    |                | 
+| classid    | tinyint(3) unsigned  | NO   |     | NULL    |                | 
+| dmid       | smallint(5) unsigned | NO   |     | NULL    |                | 
+| dkey       | varchar(255)         | YES  |     | NULL    |                | 
+| devids     | varchar(60)          | YES  |     | NULL    |                | 
++------------+----------------------+------+-----+---------+----------------+
+
+
+----> describe  unreachable_fids;
++------------+------------------+------+-----+---------+-------+
+| Field      | Type             | Null | Key | Default | Extra |
++------------+------------------+------+-----+---------+-------+
+| fid        | int(10) unsigned | NO   | PRI | NULL    |       | 
+| lastupdate | int(10) unsigned | NO   | MUL | NULL    |       | 
++------------+------------------+------+-----+---------+-------+
+
+

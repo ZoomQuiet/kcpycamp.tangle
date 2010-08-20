@@ -1,0 +1,12 @@
+<div align='center'>
+<font size="7">Result</font>
+<table width="600" border="0" align="center">
+<tr>
+<td><a href="EnterResume.pih">|Enter resume|</a></td>
+<td><a href="modify.pih"> |Modify resume|</a></td>
+<td><a href="fileupload.pih">|UpLoad resume|</a></td>
+<td><a href="seecalendar.pih">|See calendar|</a></td>
+<td><a href="seeResult.pih">|See Result|</a></td>
+</tr>
+</table>
+pass

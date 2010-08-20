@@ -1,0 +1,2724 @@
+Python 2.5.1 (r251:54863, Apr 18 2007, 08:51:08) [MSC v.1310 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+    ****************************************************************
+    Personal firewall software may warn about the connection IDLE
+    makes to its subprocess using this computer's internal loopback
+    interface.  This connection is not visible on any external
+    interface and no data is sent to or received from the Internet.
+    ****************************************************************
+    
+IDLE 1.2.1      
+>>> ================================ RESTART ================================
+>>> 
+²¡¶¾ÀàÐÍ : Ä¾Âí³ÌÐò
+²¡¶¾Ó¢ÎÄÃû³Æ : Win32.Troj.Dluca.cb.39424
+Ó°ÏìÏµÍ³ : win9x/winMe/winNT/win2000/winXP/win2003
+ÍþÐ²¼¶±ð : ¡ï
+²¡¶¾ÖÐÎÄÃû³Æ : 
+¹Ø¼ü´Ê : delwbi.tmp,Ä¾Âí,vmx38Fg45
+¸ÐÈ¾Í¾¾¶ : 
+²¡¶¾¼ò½é : ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£
+²¡¶¾±ðÃû : 
+ÐÐÎª·ÖÎö : ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥
+²¡¶¾³¤¶È : 39424
+>>> ================================ RESTART ================================
+>>> 
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('2005','2005','virus','Win32.Troj.Dluca.cb.39424','155','1','0','1234568','1234568');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES (2005,2005,'','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','win9x/winMe/winNT/win2000/winXP/win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('2005','2005','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('2005','2005','155','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1234568');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+>>> ================================ RESTART ================================
+>>> 
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('2005','2005','virus','var_title','155','1','0','1234568','1234568');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('2005','2005','var_field_alias_value','var_field_length_value','var_field_category_value',
+'var_field_brief_value','1','1',
+'var_field_level_value','var_field_platform_value');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('2005','2005','var_field_cnname_value');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('2005','2005','155','var_title','var_body','var_teaser','','1','1234568');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+>>> ================================ RESTART ================================
+>>> 
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('2005','2005','virus','Win32.Troj.Dluca.cb.39424','155','1','0','1234568','1234568');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('2005','2005','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','win9x/winMe/winNT/win2000/winXP/win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('2005','2005','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('2005','2005','155','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1234568');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+>>> ================================ RESTART ================================
+>>> 
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('2005','2005','virus','Win32.Troj.Dluca.cb.39424','155','1','0','1234568','1234568');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('2005','2005','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('2005','2005','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('2005','2005','155','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1234568');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='2005' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+>>> import os,os.path
+>>> help(os.path)
+Help on module ntpath:
+
+NAME
+    ntpath - Common pathname manipulations, WindowsNT/95 version.
+
+FILE
+    f:\python25\lib\ntpath.py
+
+DESCRIPTION
+    Instead of importing this module directly, import os and refer to this
+    module as os.path.
+
+FUNCTIONS
+    abspath(path)
+        Return the absolute version of a path.
+    
+    basename(p)
+        Returns the final component of a pathname
+    
+    commonprefix(m)
+        Given a list of pathnames, returns the longest common leading component
+    
+    dirname(p)
+        Returns the directory component of a pathname
+    
+    exists(path)
+        Test whether a path exists
+    
+    expanduser(path)
+        Expand ~ and ~user constructs.
+        
+        If user or $HOME is unknown, do nothing.
+    
+    expandvars(path)
+        Expand shell variables of form $var and ${var}.
+        
+        Unknown variables are left unchanged.
+    
+    getatime(filename)
+        Return the last access time of a file, reported by os.stat()
+    
+    getctime(filename)
+        Return the creation time of a file, reported by os.stat().
+    
+    getmtime(filename)
+        Return the last modification time of a file, reported by os.stat()
+    
+    getsize(filename)
+        Return the size of a file, reported by os.stat()
+    
+    isabs(s)
+        Test whether a path is absolute
+    
+    isdir(path)
+        Test whether a path is a directory
+    
+    isfile(path)
+        Test whether a path is a regular file
+    
+    islink(path)
+        Test for symbolic link.  On WindowsNT/95 always returns false
+    
+    ismount(path)
+        Test whether a path is a mount point (defined as root of drive)
+    
+    join(a, *p)
+        Join two or more pathname components, inserting "\" as needed
+    
+    lexists = exists(path)
+        Test whether a path exists
+    
+    normcase(s)
+        Normalize case of pathname.
+        
+        Makes all characters lowercase and all slashes into backslashes.
+    
+    normpath(path)
+        Normalize path, eliminating double slashes, etc.
+    
+    realpath = abspath(path)
+        Return the absolute version of a path.
+    
+    split(p)
+        Split a pathname.
+        
+        Return tuple (head, tail) where tail is everything after the final slash.
+        Either part may be empty.
+    
+    splitdrive(p)
+        Split a pathname into drive and path specifiers. Returns a 2-tuple
+        "(drive,path)";  either part may be empty
+    
+    splitext(p)
+        Split the extension from a pathname.
+        
+        Extension is everything from the last dot to the end.
+        Return (root, ext), either part may be empty.
+    
+    splitunc(p)
+        Split a pathname into UNC mount point and relative path specifiers.
+        
+        Return a 2-tuple (unc, rest); either part may be empty.
+        If unc is not empty, it has the form '//host/mount' (or similar
+        using backslashes).  unc+rest is always the input path.
+        Paths containing drive letters never have an UNC part.
+    
+    walk(top, func, arg)
+        Directory tree walk with callback function.
+        
+        For each directory in the directory tree rooted at top (including top
+        itself, but excluding '.' and '..'), call func(arg, dirname, fnames).
+        dirname is the name of the directory, and fnames a list of the names of
+        the files and subdirectories in dirname (excluding '.' and '..').  func
+        may modify the fnames list in-place (e.g. via del or slice assignment),
+        and walk will only recurse into the subdirectories whose names remain in
+        fnames; this can be used to implement a filter, or to impose a specific
+        order of visiting.  No semantics are defined for, or required of, arg,
+        beyond that arg is always passed to func.  It can be used, e.g., to pass
+        a filename pattern, or a mutable object designed to accumulate
+        statistics.  Passing None for arg is common.
+
+DATA
+    __all__ = ['normcase', 'isabs', 'join', 'splitdrive', 'split', 'splite...
+    altsep = '/'
+    curdir = '.'
+    defpath = r'.;C:\bin'
+    devnull = 'nul'
+    extsep = '.'
+    pardir = '..'
+    pathsep = ';'
+    sep = r'\'
+    supports_unicode_filenames = True
+
+
+>>> os.path.dirname('sample.txt')
+''
+>>> b=os.path.dirname('sample.txt')
+>>> b
+''
+>>> b=os.path.dirname('sp')
+>>> b
+''
+>>> b=os.path.dirname('f:/kcvea/code/sprint2/sp')
+>>> b
+'f:/kcvea/code/sprint2'
+>>> b=os.path.basename('f:/kcvea/code/sprint2/sp')
+>>> b
+'sp'
+>>> b=os.path.basename('f:/kcvea/code/sprint2/sample.txt')
+>>> b
+'sample.txt'
+>>> mutagen
+
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    mutagen
+NameError: name 'mutagen' is not defined
+>>> mutagen
+
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    mutagen
+NameError: name 'mutagen' is not defined
+>>> id3
+
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    id3
+NameError: name 'id3' is not defined
+>>> import id3
+
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    import id3
+ImportError: No module named id3
+>>> import mutagen
+
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    import mutagen
+ImportError: No module named mutagen
+>>> import os
+>>> import mutagen
+
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    import mutagen
+ImportError: No module named mutagen
+>>> ================================ RESTART ================================
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 2, in <module>
+    import post2db,MySQLdb,env,VirusInfo
+  File "F:\KcVEA\code\sprint3\post2db.py", line 90
+    if r== None
+              
+^
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 23, in <module>
+    var_nid=QueryField(cursor,'sequences','id','name','node_revisions_vid')
+NameError: name 'QueryField' is not defined
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 26, in <module>
+    var_time=int(time.time())
+NameError: name 'time' is not defined
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219822249
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 28, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+NameError: name 'sql' is not defined
+>>> 
+KeyboardInterrupt
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219822288
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 28, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+NameError: name 'var_uid' is not defined
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219822340
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 29, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 88, in AddNodeSql
+    StrObj=StrObj.replace(k,GetPlatform(platformtxt,dinfo[v]))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219822480
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219822480','1219822480');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','win9x/winMe/winNT/win2000/winXP/win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219822480');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219822650
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 29, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 89, in AddNodeSql
+    StrObj=StrObj.replace(k,GetPlatform(platformtxt,dinfo[v]))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219822939
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219822939','1219822939');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','ÖÐren');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219822939');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823136
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219823136','1219823136');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','ÖÐren');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219823136');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823340
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219823340','1219823340');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','win9x/winMe/winNT/win2000/winXP/win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219823340');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823478
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219823478','1219823478');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','win9x/winMe/winNT/win2000/winXP/win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219823478');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823497
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 29, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 96, in AddNodeSql
+    StrObj=StrObj.replace(k,s3)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823624
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 29, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 96, in AddNodeSql
+    StrObj=StrObj.replace(k,s3)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823641
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+False True
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219823641','1219823641');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','var_field_platform_value');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219823641');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823881
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 29, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 96, in AddNodeSql
+    s3=unicode(s3,'cp936')
+TypeError: decoding Unicode is not supported
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219823925
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 29, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 97, in AddNodeSql
+    StrObj=StrObj.replace(k,s3)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 "a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219824344
+s1 "a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 59, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 97, in AddNodeSql
+    StrObj=StrObj.replace(k,s3)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 "a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219824363
+s1 "a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+False True
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219824363','1219824363');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219824363');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 26, in <module>
+    platformtxt.decode('cp936')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 114-115: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219824565
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 61, in <module>
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+  File "F:\KcVEA\code\sprint3\sql.py", line 97, in AddNodeSql
+    StrObj=StrObj.replace(k,s3)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 523: ordinal not in range(128)
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219824678
+s1 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+v Ó°ÏìÏµÍ³
+s2 win9x/winMe/winNT/win2000/winXP/win2003
+s3 Win9x WinMe WinNT Win2000 WinXP Win2003
+False True
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219824678','1219824678');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219824678');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+50701 110736 a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+Î´´òGDI+Â©¶´²¹¶¡
+Î´´òMS04-028²¹¶¡µÄÓ¢ÎÄ°æWinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+ÆäËü
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";} 1219824869
+****************************** SQL ******************************
+INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','15555','1','0','1219824869','1219824869');
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003');
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','');
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','15555','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219824869');
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid');
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid');
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 65, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 61, in UpdateNode
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+NameError: global name 'dinfo' is not defined
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 65, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 61, in UpdateNode
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+NameError: global name 'dinfo' is not defined
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 61, in UpdateNode
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+NameError: global name 'dinfo' is not defined
+>>> ================================ RESTART ================================
+>>> 
+****************************** SQL ******************************
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+²¡¶¾ÀàÐÍ Ä¾Âí³ÌÐò
+²¡¶¾Ó¢ÎÄÃû³Æ Win32.Troj.Dluca.cb.39424
+Ó°ÏìÏµÍ³ win9x/winMe/winNT/win2000/winXP/win2003
+ÍþÐ²¼¶±ð ¡ï
+²¡¶¾ÖÐÎÄÃû³Æ 
+¹Ø¼ü´Ê delwbi.tmp,Ä¾Âí,vmx38Fg45
+¸ÐÈ¾Í¾¾¶ 
+²¡¶¾¼ò½é ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£
+²¡¶¾±ðÃû 
+ÐÐÎª·ÖÎö ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥
+²¡¶¾³¤¶È 39424
+****************************** SQL ******************************
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+²¡¶¾ÀàÐÍ Ä¾Âí³ÌÐò
+²¡¶¾Ó¢ÎÄÃû³Æ Win32.Troj.Dluca.cb.39424
+Ó°ÏìÏµÍ³ win9x/winMe/winNT/win2000/winXP/win2003
+ÍþÐ²¼¶±ð ¡ï
+²¡¶¾ÖÐÎÄÃû³Æ 
+¹Ø¼ü´Ê delwbi.tmp,Ä¾Âí,vmx38Fg45
+¸ÐÈ¾Í¾¾¶ 
+²¡¶¾¼ò½é ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£
+²¡¶¾±ðÃû 
+ÐÐÎª·ÖÎö ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥
+²¡¶¾³¤¶È 39424
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 26, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 61, in UpdateNode
+    q=sql.AddNodeSql(var_nid,var_vid,var_uid,var_time,dinfo,platformtxt)
+NameError: global name 'dinfo' is not defined
+>>> ================================ RESTART ================================
+>>> 
+[ 0 ] INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','3','1','0','1219825608','1219825608')
+[ 1 ] 
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003')
+[ 2 ] 
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','')
+[ 3 ] 
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','3','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219825608')
+[ 4 ] 
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid')
+[ 5 ] 
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid')
+[ 6 ] 
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+[ 0 ] INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','3','1','0','1219825632','1219825632')
+[ 1 ] 
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003')
+[ 2 ] 
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','')
+[ 3 ] 
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','3','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219825632')
+[ 4 ] 
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid')
+[ 5 ] 
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid')
+[ 6 ] 
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+None
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=QueryField(cursor,'sequences','id','name','node_revisions_vid')
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=QueryField(cursor,'sequences','id','name','node_revisions_vid')
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 2, in <module>
+    import post2db,MySQLdb,env,VirusInfo,time,sql
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55
+    var_nid=(int)QueryField(cursor,'sequences','id','name','node_revisions_vid')
+                          ^
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 2, in <module>
+    import post2db,MySQLdb,env,VirusInfo,time,sql
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55
+    var_nid=(int)QueryField(cursor,'sequences','id','name','node_revisions_vid')
+                          ^
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=int(QueryField(cursor,'sequences','id','name','node_revisions_vid'))
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=(QueryField(cursor,'sequences','id','name','node_revisions_vid'))
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=QueryField(cursor,'sequences','id','name','node_revisions_vid')
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> ================================ RESTART ================================
+>>> 
+>>> 
+KeyboardInterrupt
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=QueryField(cursor,'sequences','id','name','node_revisions_vid')
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 2, in <module>
+    import post2db,MySQLdb,env,VirusInfo,time,sql
+  File "F:\KcVEA\code\sprint3\post2db.py", line 66
+    print '[',li.index(query)']',query
+                               ^
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 24, in <module>
+    q=post2db.UpdateNode(var_uid,dinfo,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 55, in UpdateNode
+    var_nid=QueryField(cursor,'sequences','id','name','node_revisions_vid')
+  File "F:\KcVEA\code\sprint3\post2db.py", line 33, in QueryField
+    cursor.execute(q)
+  File "F:\Python25\Lib\site-packages\MySQLdb\cursors.py", line 147, in execute
+    charset = db.character_set_name()
+InterfaceError: (0, '')
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+[ 0 ] INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701L','110736L','virus','Win32.Troj.Dluca.cb.39424','3','1','0','1219826441','1219826441')
+[ 1 ] 
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736L','50701L','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003')
+[ 2 ] 
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701L','110736L','')
+[ 3 ] 
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701L','110736L','3','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219826441')
+[ 4 ] 
+
+UPDATE `sequences` SET `id`='50701L' WHERE (`name`='node_nid')
+[ 5 ] 
+
+UPDATE `sequences` SET `id`='110736L' WHERE (`name`='node_revisions_vid')
+[ 6 ] 
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+None
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+[ 0 ] INSERT INTO `node` (`nid`,`vid`,`type`,`title`,`uid`,`promote`,`sticky`,`created`,`changed`)
+VALUES ('50701','110736','virus','Win32.Troj.Dluca.cb.39424','3','1','0','1219826499','1219826499')
+[ 1 ] 
+
+INSERT INTO `content_type_virus` (`vid`,`nid`,`field_alias_value`,`field_length_value`,`field_category_value`,
+                                `field_brief_value`,`field_brief_format`,`field_remark_format`,
+                                `field_level_value`,`field_platform_value`)
+VALUES ('110736','50701','','39424','Ä¾Âí³ÌÐò',
+'ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','1','1',
+'¡ï¡î¡î¡î¡î','Win9x WinMe WinNT Win2000 WinXP Win2003')
+[ 2 ] 
+
+INSERT INTO `content_field_cnname` (`nid`,`vid`,`field_cnname_value`)
+VALUES ('50701','110736','')
+[ 3 ] 
+
+INSERT INTO `node_revisions` (`nid`,`vid`,`uid`,`title`,`body`,`teaser`,`log`,`format`,`timestamp`)
+VALUES ('50701','110736','3','Win32.Troj.Dluca.cb.39424','ÔÚ´ÅÅÌÖÐÊÍ·Å³öÒÔÏÂÎÄ¼þ:
+windows
+
+ÔÚ´ÅÅÌÖÐÉ¾³ýÁËÒÔÏÂÎÄ¼þ:
+C:\WINDOWS\TEMP\delwbi.tmp
+
+ÔÚ×¢²á±íÖÐ´´½¨ÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\sncntr"
+"HKCU\Software\sncntr"
+
+ÔÚ×¢²á±íÖÐÉèÖÃÁËÒÔÏÂÐÅÏ¢:
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F7EE4E3689C2DCF4A531C20954D158C1936D9A3C"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\1567DAAB1377FE3552D2F6F2A2FA80200135EDA5"	"Blob"	""
+"HKCU\Software\Microsoft\SystemCertificates\TrustedPublisher\Certificates\F705E9D8DAA72DF53D068BF60B551EA3103D51D7"	"Blob"	""
+
+»á´ÓÒÔÏÂ×¢²á±íÖÐ¶ÁÈ¡ÐÅÏ¢:
+"HKCU\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKCU\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKCU\Software\Microsoft\Win32SDK"
+"HKCU\Software\Microsoft\Sourcesafe"
+"HKCU\Software\Microsoft\PlatformSDK"
+"HKLM\Software\_GMC_ODLUP"
+"HKLM\Software\Microsoft\VisualStudio\6.0\Debugger"
+"HKLM\Software\Microsoft\VisualStudio\7.0\Debugger"
+"HKLM\Software\Microsoft\Win32SDK"
+"HKLM\Software\Microsoft\Sourcesafe"
+"HKLM\Software\Microsoft\PlatformSDK"
+
+ÔÚÏµÍ³ÖÐ´´½¨ÁËÒÔÏÂ½ø³Ì:
+²¡¶¾»á´´½¨ÁËÒ»¸ö»¥³âÌå vmx38Fg45 £¬·ÀÖ¹ÖØ¸´ÔËÐÐ
+
+²¡¶¾»áÍ¨¹ýÒÔÏÂÍ¾¾¶´«²¥:
+²¡¶¾»áÀûÓÃÍøÂç½øÐÐ´«²¥','ÕâÊÇÒ»¸öÄ¾Âí³ÌÐò¡£»áÔÚ´ÅÅÌÖÐÊÍ·Å³öÎÄ¼þ£¬»áÐÞ¸Ä×¢²á±í¡£','','1','1219826499')
+[ 4 ] 
+
+UPDATE `sequences` SET `id`='50701' WHERE (`name`='node_nid')
+[ 5 ] 
+
+UPDATE `sequences` SET `id`='110736' WHERE (`name`='node_revisions_vid')
+[ 6 ] 
+
+DELETE FROM cache_page
+****************************** SQL ******************************
+None
+****************************** SQL ******************************
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+******************************
+[
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 73, in <module>
+    post2db.UpdateTerm(keys,nid,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 87, in UpdateTerm
+    print '[',lisql.index[q],']:',q
+TypeError: 'builtin_function_or_method' object is unsubscriptable
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 2, in <module>
+    import post2db,MySQLdb,env,VirusInfo,time,sql
+  File "F:\KcVEA\code\sprint3\post2db.py", line 69
+    pass query
+             ^
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+******************************
+[
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 73, in <module>
+    post2db.UpdateTerm(keys,nid,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 88, in UpdateTerm
+    print '[',lisql.index[q],']:',q
+TypeError: 'builtin_function_or_method' object is unsubscriptable
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+******************************
+[ 0 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','26')
+[ 1 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','24')
+[ 2 ]: INSERT INTO `term_data` (`tid`,`vid`,`name`,`weight`) VALUES ('110737','1','','0')
+[ 3 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','110737')
+[ 4 ]: INSERT INTO `term_data` (`tid`,`vid`,`name`,`weight`) VALUES ('110738','1','','0')
+[ 5 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','110738')
+[ 6 ]: UPDATE `sequences` SET `id`='110738' WHERE `name`='term_data_tid'
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 2, in <module>
+    import post2db,MySQLdb,env,VirusInfo,time,sql
+  File "F:\KcVEA\code\sprint3\post2db.py", line 74
+    tid=(int)tid
+               ^
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+******************************
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\test.py", line 73, in <module>
+    post2db.UpdateTerm(keys,nid,cursor)
+  File "F:\KcVEA\code\sprint3\post2db.py", line 74, in UpdateTerm
+    tid=int(tid)
+UnboundLocalError: local variable 'tid' referenced before assignment
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+110736 110736L
+******************************
+[ 0 ]: INSERT INTO `term_data` (`tid`,`vid`,`name`,`weight`) VALUES ('110737','1','','0')
+[ 1 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','110737')
+[ 2 ]: INSERT INTO `term_data` (`tid`,`vid`,`name`,`weight`) VALUES ('110738','1','','0')
+[ 3 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','110738')
+[ 4 ]: INSERT INTO `term_data` (`tid`,`vid`,`name`,`weight`) VALUES ('110739','1','','0')
+[ 5 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','110739')
+[ 6 ]: INSERT INTO `term_data` (`tid`,`vid`,`name`,`weight`) VALUES ('110740','1','','0')
+[ 7 ]: INSERT INTO `term_node` (`nid`,`tid`) VALUES ('2005','110740')
+[ 8 ]: UPDATE `sequences` SET `id`='110740' WHERE `name`='term_data_tid'
+>>> 

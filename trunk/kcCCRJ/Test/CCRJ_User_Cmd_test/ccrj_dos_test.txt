@@ -1,0 +1,5 @@
+﻿C:\Python25\CCRJ\CCRJ.PY C:\TEST.CPP C:\	///正确命令,默认全选
+C:\Python25\CCRJ\CCRJ.PY C:\TEST.CPP C:\ --ABC  ///正确命令,增加选项选项
+C:\Python25\CCRJ\CCRJ.PY C:\Python25 C:\ --ABC  ///正确命令,扫描整个目录
+C:\Python25\CCRJ\CCRJ.PY C:\TEST.a C:\		///源文件不正确
+C:\Python25\CCRJ\CCRJ.PY C:\TEST.CPP C:\a.txt   ///目的地应该是目录

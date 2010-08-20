@@ -1,0 +1,42 @@
+<html>
+<body>
+
+<table width="80%" border="0" align="center">
+  <tr>
+    <td></span><h1>New AppriaseTable </h1></td>
+    <td width="50%"><div align="center"><a href="AssistantPage.pih">homepage</a></td>
+  </tr>
+</table>
+
+<div align="center">
+  <p><br>
+
+<form action="showManageAppriaseTableList.pih">
+<table width="50%" border="0" align="center" cellspacing="8">
+  <tr>
+    <th width="80%" >Program Ability<br></th>
+    <td><input type="checkbox" name="checkbox1"></</td>
+  </tr>
+  <tr>
+    <th>analysis Ability<br></th>
+    <td><input type="checkbox" name="checkbox2"></</td>
+  </tr>
+  <tr>
+    <th>complementarity<br></th>
+    <td><input type="checkbox" name="checkbox3"></</td>
+  </tr>
+
+  <tr>
+    <th scope="row"> <div align="center">
+    <input type='submit' name='submit' value='OK'></div></th>
+    <td><div align="left">
+    <input type = "reset" name=reset value='reset'></div></td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,98 @@
+﻿Team: MogBench
+Version: Demo V0.6.5
+Date:   2008-08-27
+Editer: ChuanTong.Huang
+
+发布说明:
+
+###.运行需知：###
+0.系统需求
+    Django 0.962
+    python2.5
+    MySQLdb for python2.5(自行上网下载对应不同操作系统的包，并安装)
+    
+0.使用文件create_mogbenchdb.sql里的SQL脚本创建一个数据库。
+1.在本地新建一个文件夹，并命名为: mogbench ； 如 D:\mogbench;  for Lniux : /home/mogbench/
+2.下载文件夹内全部内容，放到 mogbench/ 目录下。
+3.修改setting.py文件:
+  3.1  找到  “TEMPLATE_DIRS” 变量，把原句 ：["D:/MogileFS_demo_V_0.35/mogbench/html/"]
+    修改成你新建目录的绝对路径，（django0.98要求绝对路径） 
+    如 for windowns:  “D:/mogbench/html/” 
+                    TEMPLATE_DIRS = ( "D:/mogbench/html/" )  #html模版目录
+       for lniux:    
+                    TEMPLATE_DIRS = ( "/home/mogbench/html/" )  #html模版目录
+    注意用 ‘/’ 不是 '\'
+    
+    
+  3.2 同样在本文件（最后一行）找到 STATIC_PATH 变量，修改成绝对目录
+      形如：        STATIC_PATH = "D:/mogbench/media"
+      即加上你新建的文件新夹。
+      
+  3.3 同理修改以下的数据库配置信息
+    DATABASE_ENGINE = 'mysql'           # 你使用的数据库类型，默认mysql
+    DATABASE_NAME = 'mogbenchdb'        # 数据库名称，你必需先运行本程序提供的SQL脚本文件		    				(create_mogbenchdb.sql)，创建默认数据库mogbenchdb
+    DATABASE_USER = 'root'              # 访问数据库的用户名
+    DATABASE_PASSWORD = 'admin'         # 数据库用户密码
+    DATABASE_HOST = '192.168.1.183'     # 数据库服务器地址
+    DATABASE_PORT = '3306'              # 数据库服务器默认访问端口，非默认自己修改
+
+4.修改以setting.py文件后，运行目录下的manage.py脚本(注意，一定要在此目录下运行)，命令行形如：
+
+    $ python manage.py runserver 80
+      #输出以下信息表示运行成功，直接使用 http://127.0.0.1 可访问网站
+        Django version 0.96.2, using settings 'demo.settings'
+        Development server is running at http://127.0.0.1:80/
+        Quit the server with CTRL-BREAK.
+        Validating models...
+        0 errors found.
+   80表示端口，不指定默认使用 8000，你可以自行指定端口   
+    
+
+5.添加一个系统的计划任务(crontab)，定时执行脚本文件：update_status.py，定时间隔自行考虑，建议2分钟.
+  使用update_status.py之前需要在/etc/mogilefs/目錄下添加一個配置文件mogilefs.conf，内容如下：
+  lib = /path/to/lib #即為安裝trunk/utils/包的路徑。ubuntu8.04下為/usr/lib/perl5/5.8.8
+    
+
+#---------------------------------------------------------------------------------------------
+Mogbench系统功能说明
+
+Editer: 黄传通 
+Date  : 2008-08-27
+
+1.用户验证功能。	    http://.../login/
+  1-1.添、删管理员。        http://.../admin_mgr/   
+  1-2.退出系统。            http://.../logout/
+   
+                            
+2.添加、删除MogileFS系统    http://.../addmogilefs/
+
+
+3.添加,删除Tracker。        http://.../addtracker/
+                            
+
+4.可监视的MogileFS系统列表。http://.../index/
+
+
+5.监视MogileFS的实时信息。 http://.../mog_view/?mogID=n                         
+  (v0.65版系统最主要功能)
+  包括实时监控Tracker、Host、Device的运行状态,device的储存容量，文件数。
+  主要使用一个更新脚本(update_status.py)，让系统定时执行，把状态同步到本地数据库，在网页上显示。
+
+   
+
+6.查、删日志功能。            http://.../viewlog/?aID=n
+
+
+7.注意事项：
+  7-1 所添加的mogilefs系统数据库IP地址格式必须是正确的IPv4地址格式，且允许远程连接。
+  7-2 所添加的mogilefs系统db及track必须在同一个网络下，保证至少一台track正常运行才能返回实时信息，否则只返回数据库信息。
+
+附：
+
+项目使用到的开发包与工具
+MogileFS 2.08
+python 2.5
+Django 0.962
+MySQL 5.1.3
+MySQLdb 1.2.2c1 for py2.5
+Adobe Dreamweaver CS3

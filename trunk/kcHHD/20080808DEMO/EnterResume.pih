@@ -1,0 +1,49 @@
+<div align='center'>
+<font size="7">Enter the Resume</font>
+<form method="get" name="resume" action = 'CheckEnterResume.pih'>
+<p>&nbsp;</p><table width="571" border="1" height="277">
+<tbody><tr>
+<td align="right">name:<br></td>
+<td>&nbsp;<input type="text" maxlength="10" name="name"></td>
+<td align="right">&nbsp;sex:</td>
+<td>&nbsp;<input type="radio" checked="checked" value="BOY" name="sex">boy
+<input type="radio" name="sex">girl</td></tr>
+<tr>
+<td align="right">&nbsp;school:</td>
+<td>&nbsp;<input type="text" maxlength="20" name="school"></td>
+<td align="right">&nbsp;speciality:</td>
+<td>&nbsp;<input type="text" maxlength="20" name="speciality"></td></tr>
+<tr>
+<td align="right">&nbsp;grade:</td>
+<td>&nbsp;<input type="text" maxlength="4" name="grade"></td>
+<td align="right">&nbsp;phone:</td>
+<td>&nbsp;<input type="text" maxlength="11" name="phone"></td></tr>
+<tr>
+<td align="right">identity card:&nbsp;</td>
+<td>&nbsp;<input type="text" maxlength="18" name="identitycard"></td>
+<td align="right">native place:</td>
+<td>&nbsp;<input type="text" maxlength="15" name="nativeplace"></td></tr>
+<tr>
+<td align="right">Address :</td>
+<td>&nbsp;<input type="text" maxlength="50" name="address"></td>
+<td align="right">home phone:</td>
+<td>&nbsp;<input type="text" maxlength="11" name="home"></td></tr>
+<tr>
+<td align="right">Email:&nbsp;</td>
+<td>&nbsp;<input type="text" maxlength="30" name="email"></td>
+<td align="right">QQ:</td>
+<td>&nbsp;<input type="text" maxlength="15" name="qq"></td></tr>
+<tr>
+<td align="right">English Level:&nbsp;</td>
+<td>&nbsp;<input type="text" maxlength="10" name="english"></td>
+<td align="right">character:</td>
+<td>&nbsp;<input type="text" maxlength="50" name="character"></td></tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;<input type="submit" name="Commit"></td>
+<td>&nbsp;<input type="reset" value="Reset" name="Reset"></td>
+<td>&nbsp;</td></tr>
+</tbody></table><p>&nbsp;</p></form>
+
+<div>

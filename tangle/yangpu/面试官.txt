@@ -1,0 +1,12 @@
+修改了 intreviewerpage.pih
+增加了：
+ShowGroupOfUserList.pih
+ShowIntervieweeInfoToInterviewer.pih
+InterviewerOrderInterview.pih
+InterviewerchooseAppraisal.pih
+intervierCalendar.pih
+interviewereditCalendar.pih
+editappriaseInfo.pih
+interviewerinformation.pih
+
+

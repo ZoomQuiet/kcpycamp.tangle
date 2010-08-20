@@ -1,0 +1,17 @@
+
+<html>
+<body>
+<h2 align = 'center'>check calendars</h2>
+<h3>
+
+<table width = "50%" border = "1" align='center'>
+<tr><td width = "50"> time </td> <td width = "50"> place </td> <td width = "50"> person </td><td width = "50"></td></tr> 
+<tr><td width = "50"> xxxxx</td><td width = "50">xxxx</td><td width = "50">xxx</td><td width = "50"><a href = "../openinterview.pih">interviewing </a></td></tr>
+<tr><td width = "50"> xxxxx</td><td width = "50">xxxx</td><td width = "50">xxx</td><td width = "50"><a href = "../openinterview.pih">interviewing </a></td></tr>
+
+</table>
+</h3>
+</body>
+</html>
+
+

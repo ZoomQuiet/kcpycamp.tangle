@@ -1,0 +1,24 @@
+﻿<%
+RESPONSE['Content-Type'] = "text/html; charset=utf-8"
+%>
+<body>
+
+<center>
+<br>
+<br>
+<br>
+<br>
+
+<FORM ENCTYPE="multipart/form-data" ACTION="../../control/uploadFiles/fileUpload.py"  METHOD=POST>
+
+ 选择简历: <INPUT NAME="myfile" TYPE="file">
+<INPUT TYPE="hidden" name="accountID" VALUE =<% print id %>
+<INPUT TYPE="submit" VALUE="上传简历">
+
+
+
+</form>
+
+
+</body>
+

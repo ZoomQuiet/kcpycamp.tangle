@@ -1,0 +1,26 @@
+
+<html>
+<body>
+<h2>all information about interviewees</h2>
+
+<table width = "75%" border = "100" align = 'center'>
+<h3>
+<tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+<td>xxxxxxx</td><td>52154313216543</td><td><a href = "../checkresume.pih">resume</a></td>
+<td><a href = "../download.pih">download resume</a></td><td><a href = "../order calendars.pih">order calendars</a></td></tr>
+</h3>
+</table>
+</body>
+</html>

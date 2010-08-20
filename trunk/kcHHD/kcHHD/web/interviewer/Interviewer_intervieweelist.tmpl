@@ -1,0 +1,17 @@
+﻿<br><br><br><br><br>
+<table class="main" cellpadding="3" cellspacing="0" align="center" width='60%'>
+<tr><th>编号</th><th>用户名</th><th>姓名</th><th>应聘部门</th><th colspan='3'>操作</th></tr>
+#for $listItem in $CList:
+<tr>
+<td class="main" align="center">$listItem['no']&nbsp;</td>
+<td class="main" align="center">$listItem['ID']&nbsp;</td>
+<td class="main" align="center">$listItem['name']&nbsp;</td>
+<td class="main" align="center">$listItem['department']&nbsp;</td>
+<td class="main" align="center"><a href="seeResume?resumeId=$listItem['no']">查看简历</a></td>
+<td class="main" align="center"><a href="../../control/interviewer.ks/bookInterveiw?intervieweeID=$listItem['no']">
+预约面试</a></td>
+<td class="main" align="center"><a href="editRecord?recordId=$listItem['no']">
+Edit</a></td>
+</tr>
+#end for
+</table>

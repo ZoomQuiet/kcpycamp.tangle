@@ -1,0 +1,218 @@
+Python 2.5.1 (r251:54863, Apr 18 2007, 08:51:08) [MSC v.1310 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+    ****************************************************************
+    Personal firewall software may warn about the connection IDLE
+    makes to its subprocess using this computer's internal loopback
+    interface.  This connection is not visible on any external
+    interface and no data is sent to or received from the Internet.
+    ****************************************************************
+    
+IDLE 1.2.1      
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\env.py", line 44, in <module>
+    print conf
+NameError: name 'conf' is not defined
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\main.py", line 2, in <module>
+    import string, sys, pickle, cmd,post2db,env
+  File "F:\KcVEA\code\sprint3\post2db.py", line 5, in <module>
+    from env import dbcon
+ImportError: cannot import name dbcon
+>>> ================================ RESTART ================================
+>>> 
+sec ['db_field', 'txt_field', 'dbcon']
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\main.py", line 60, in <module>
+    env.ReadCfg('cfg.txt')
+  File "F:\KcVEA\code\sprint3\env.py", line 31, in ReadCfg
+    v=cf.items('txt_field')
+NameError: global name 'cf' is not defined
+>>> ================================ RESTART ================================
+>>> 
+sec ['db_field', 'txt_field', 'dbcon']
+病毒类型 [  ]
+病毒英文名称 [  ]
+影响系统 [  ]
+威胁级别 [  ]
+病毒中文名称 [  ]
+关键词 [  ]
+感染途径 [  ]
+病毒简介 [  ]
+病毒别名 [  ]
+行为分析 [  ]
+病毒长度 [  ]
+var_field_brief_value [ 病毒简介 ]
+var_field_cnname_value [ 病毒中文名称 ]
+var_teaser [ 病毒简介 ]
+var_field_category_value [ 病毒类型 ]
+var_title [ 病毒英文名称 ]
+var_field_length_value [ 病毒长度 ]
+var_body [ 行为分析 ]
+var_field_alias_value [ 病毒别名 ]
+var_field_level_value [ 威胁级别 ]
+var_field_platform_value [ 影响系统 ]
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退出
+
+=========================
+
+:-)test
+{}
+:-)test
+{}
+:-)quit
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\main.py", line 62, in <module>
+    poster.cmdloop()
+  File "F:\Python25\lib\cmd.py", line 142, in cmdloop
+    stop = self.onecmd(line)
+  File "F:\Python25\lib\cmd.py", line 219, in onecmd
+    return func(arg)
+  File "F:\KcVEA\code\sprint3\main.py", line 33, in do_quit
+    sys.exit()
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退出
+
+=========================
+
+:-)test
+**************************************************
+{'charset': 'utf8', 'db': 'ivirus', 'host': '127.0.0.1', 'user': 'ivirus', 'pass': 'ivirus', 'port': '3306'}
+**************************************************
+{'\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd': '', '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6': '', '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3': '', '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0': '', '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6': '', '\xb9\xd8\xbc\xfc\xb4\xca': '', '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9': '', '\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6': '', '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb': '', '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6': '', '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8': ''}
+**************************************************
+{'var_field_brief_value': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_cnname_value': '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', 'var_teaser': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_category_value': '\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', 'var_title': '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', 'var_field_length_value': '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', 'var_body': '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', 'var_field_alias_value': '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', 'var_field_level_value': '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', 'var_field_platform_value': '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3'}
+:-)
+>>> ================================ RESTART ================================
+>>> 
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退出
+
+=========================
+
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\main.py", line 71, in <module>
+    poster.cmdloop()
+  File "F:\Python25\lib\cmd.py", line 122, in cmdloop
+    self.stdout.write(str(self.intro)+"\n")
+KeyboardInterrupt
+>>> ================================ RESTART ================================
+>>> 
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退出
+
+=========================
+
+:-)test
+**************************************************
+{'charset': 'utf8', 'db': 'ivirus', 'host': '127.0.0.1', 'user': 'ivirus', 'pass': 'ivirus', 'port': '3306'}
+**************************************************
+{'\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd': '', '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6': '', '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3': '', '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0': '', '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6': '', '\xb9\xd8\xbc\xfc\xb4\xca': '', '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9': '', '\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6': '', '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb': '', '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6': '', '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8': ''}
+**************************************************
+{'var_field_brief_value': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_cnname_value': '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', 'var_teaser': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_category_value': '\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', 'var_title': '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', 'var_field_length_value': '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', 'var_body': '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', 'var_field_alias_value': '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', 'var_field_level_value': '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', 'var_field_platform_value': '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3'}
+****************************************************************************************************
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\main.py", line 71, in <module>
+    poster.cmdloop()
+  File "F:\Python25\lib\cmd.py", line 142, in cmdloop
+    stop = self.onecmd(line)
+  File "F:\Python25\lib\cmd.py", line 219, in onecmd
+    return func(arg)
+  File "F:\KcVEA\code\sprint3\main.py", line 62, in do_test
+    for k,v in env.g_ddb:
+ValueError: too many values to unpack
+>>> ================================ RESTART ================================
+>>> 
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退出
+
+=========================
+
+:-)test
+**************************************************
+{'charset': 'utf8', 'db': 'ivirus', 'host': '127.0.0.1', 'user': 'ivirus', 'pass': 'ivirus', 'port': '3306'}
+**************************************************
+{'\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd': '', '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6': '', '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3': '', '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0': '', '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6': '', '\xb9\xd8\xbc\xfc\xb4\xca': '', '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9': '', '\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6': '', '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb': '', '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6': '', '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8': ''}
+**************************************************
+{'var_field_brief_value': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_cnname_value': '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', 'var_teaser': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_category_value': '\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', 'var_title': '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', 'var_field_length_value': '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', 'var_body': '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', 'var_field_alias_value': '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', 'var_field_level_value': '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', 'var_field_platform_value': '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3'}
+**********
+
+Traceback (most recent call last):
+  File "F:\KcVEA\code\sprint3\main.py", line 69, in <module>
+    poster.cmdloop()
+  File "F:\Python25\lib\cmd.py", line 142, in cmdloop
+    stop = self.onecmd(line)
+  File "F:\Python25\lib\cmd.py", line 219, in onecmd
+    return func(arg)
+  File "F:\KcVEA\code\sprint3\main.py", line 62, in do_test
+    for k,v in env.g_dtxt:
+ValueError: too many values to unpack
+>>> ================================ RESTART ================================
+>>> 
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退出
+
+=========================
+
+:-)test
+**************************************************
+{'charset': 'utf8', 'db': 'ivirus', 'host': '127.0.0.1', 'user': 'ivirus', 'pass': 'ivirus', 'port': '3306'}
+**************************************************
+{'\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd': '', '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6': '', '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3': '', '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0': '', '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6': '', '\xb9\xd8\xbc\xfc\xb4\xca': '', '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9': '', '\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6': '', '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb': '', '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6': '', '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8': ''}
+**************************************************
+{'var_field_brief_value': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_cnname_value': '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', 'var_teaser': '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', 'var_field_category_value': '\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', 'var_title': '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', 'var_field_length_value': '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', 'var_body': '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', 'var_field_alias_value': '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', 'var_field_level_value': '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', 'var_field_platform_value': '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3'}
+**********
+charset utf8
+db ivirus
+host 127.0.0.1
+user ivirus
+pass ivirus
+port 3306
+病毒类型 
+病毒英文名称 
+影响系统 
+威胁级别 
+病毒中文名称 
+关键词 
+病毒简介 
+感染途径 
+病毒别名 
+行为分析 
+病毒长度 
+var_field_brief_value 病毒简介
+var_field_cnname_value 病毒中文名称
+var_teaser 病毒简介
+var_field_category_value 病毒类型
+var_title 病毒英文名称
+var_field_length_value 病毒长度
+var_body 行为分析
+var_field_alias_value 病毒别名
+var_field_level_value 威胁级别
+var_field_platform_value 影响系统
+:-)

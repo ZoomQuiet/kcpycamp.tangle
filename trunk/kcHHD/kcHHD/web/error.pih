@@ -1,0 +1,9 @@
+<html>
+<head>
+<%
+RESPONSE['Content-Type'] = "text/html; charset=utf-8"
+%>
+<script language="javascript">
+alert("password errror try again!");
+</script>
+<meta http-equiv="refresh" content="1;url=/kchhd/web/login.pih">

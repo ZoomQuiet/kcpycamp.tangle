@@ -1,0 +1,27 @@
+
+<html>
+<body>
+<h2>information</h2>
+
+
+<table width = "65%" border="1" align = 'center'>
+<tr>
+<td><h3>name </h3></td> <td><h3>jession</h3> </td></tr>
+<tr>
+<td><h3>headship </h3></td> <td><h3>maneger</h3> </td></tr>
+<form action = "../">
+<tr>
+<td><h3>old password </h3></td><td><input name = "password"> </td></tr>
+<tr>
+<td><h3>new password </h3></td><td><input name = "newpassword"> </td></tr>
+<tr>
+<td><h3>confirm password </h3></td><td><input name = "con_password"> </td></tr>
+</table>
+<table align = 'center'>
+  <tr>
+    <th scope="row"> <div align="right"><a href="interviewerPage.pih">save</a>&nbsp;&nbsp;</div></th>
+    <td><div align="left"> &nbsp;&nbsp;<a href="interviewerPage.pih"><strong>back</strong></a> </div></td>
+  </tr>
+</table>
+</body>
+</html>

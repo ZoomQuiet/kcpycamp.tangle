@@ -1,0 +1,10 @@
+InterviewsystemPageDemo
+1.登录方式LOGIN.PIH
+2.完成了interviewee的简历页面、文件上传页面、日程页面、查看面试结果页面
+  还有interviewee的查看日程页面，查看面试者页面、修改个人信息页面、问题库页面等
+3.重新修改了原有的全pih页面用KS后缀配搭CHEETAH模板完成的页面
+4.留有页面模板动态数据参数接口，
+5.增加了标题菜单栏主要有interviewerHeader.PIH和intervieweeHeader.pih来完成
+
+
+2008.8.14

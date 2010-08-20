@@ -1,0 +1,41 @@
+<html>
+<body>
+
+<table width="80%" border="0" align="center">
+  <tr>
+    <td></span><h1>IntervieweeGroup </h1></td>
+    <td width="50%"><div align="center"><a href="AssistantPage.pih">homepage</a></td>
+  </tr>
+</table>
+
+  <p><br>
+  <div align="center">
+<table width="80%" border="0" align="center" cellspacing="8">
+
+  <tr bgcolor="#CCCCCC">
+    <th width="25%">NO.</th>
+    <th width="25%">GroupName<br></th>
+    <th width="25%">UserCount<br></th>
+    <th colspan="2">Operate</th>
+  </tr>
+  <tr>
+    <td width="25%">01</td>
+    <td width="25%">March<br></td>
+    <td width="25%">20<br></td>
+    <td><a href="GroupOfUserList.pih">showUserList</a></td>
+    <td><a href="GroupDescription.pih">showDescription</a></td>
+  </tr>
+   <tr>
+    <td>02</td>
+    <td>August<br></td>
+    <td>20<br></td>
+    <td>showUserList</td>
+    <td>showDescription</td>
+  </tr>
+  </table>
+</div>
+</body>
+</html>
+
+
+

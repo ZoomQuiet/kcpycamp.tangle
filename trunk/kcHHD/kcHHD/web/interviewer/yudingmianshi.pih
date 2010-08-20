@@ -1,0 +1,37 @@
+﻿<%
+RESPONSE['Content-Type'] = "text/html; charset=utf-8"
+%>
+<div align="center">
+<br><br><br><br><br>
+<form name="form1" method="post" action="../../control/interviewer.ks/addInterview">
+
+	  
+<table width="30%" border="1">
+		<tr> 
+		  <td><div align="right">面试时间：</div></td>
+		  <td>
+			  <input type="input" name='time' >
+			</td>
+		</tr>
+		<tr> 
+		<tr> 
+		  <td><div align="right">面试地点：</div></td>
+		  <td>
+			  <input type="input" name='place'>
+			</td>
+		</tr>
+		
+		
+		<tr> 
+		  <td>
+          <div align="right">
+            <input type="submit" value="提交" align="right">
+          </div>
+        </td>
+		  <td>
+			  <input type="reset"  value="重置">
+			</td>
+		</tr>
+	  </table>
+</form>
+	</div>

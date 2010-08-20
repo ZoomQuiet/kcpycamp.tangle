@@ -1,0 +1,187 @@
+﻿ 
+搜索:   登录为 feng.yi.pg登出个人设置帮助/指南关于TracMy Notifications 
+维基时间线路线图源码游览查看传票新建传票搜索管理 
+上下文导航
+起始页索引历史最后变更Watch Page 
+--------------------------------------------------------------------------------
+
+MogileFS虚拟机环境下尝试装配过程
+Version 1.0 080818 created 
+Version 2.0 080820 added comment 
+Author BryanPG 
+
+
+I、Environment:
+Tracker OS: ubuntu-8.04.1-server IP: 192.168.1.86 
+Store Server OS: ubuntu-8.04-desktop IP: 192.168.1.87 
+DB: mysql-5.0 on windows XP sp2 IP: 192.168.1.183 DBname: mogdb User:root Password:admin 
+II、Procedure:
+Tracker配置 
+
+Part 1 Tracker(192.168.1.86) Configuration: 
+安装必要工具: 
+
+$sudo apt-get update
+$sudo apt-get install make
+$sudo apt-get install gcc
+$sudo apt-get install libc6-dev
+$sudo apt-get install subversion
+
+建立工作路径并下载安装perl依赖模块 
+
+$sudo mkdir mogbench 
+$cd mogbench
+$sudo apt-get install libstring-crc32-perl libsys-syscall-perl libnet-netmask-perl libcompress-zlib-perl libio-stringy-perl libdb-dev libgdbm-dev liblinux-aio-perl libbsd-resource-perl libdbd-mysql-perl build-essential libaio1 python-pycurl 
+
+从sixapart上CheckOut出MogileFS源 
+
+$svn co http://code.sixapart.com/svn/mogilefs/trunk 
+尝试安装得到警告信息 
+
+$cd trunk/server
+$sudo perl Makefile.PL
+Warning:prerequisite Danga::Socket 1.56 not found
+Warning:prerequisite Gearman::Client 1.07 not found
+Warning:prerequisite Gearman::Client::Async 0.93 not found
+Warning:prerequisite Gearman::Server 1.08 not found
+Warning:prerequisite Net::Netmask 0 not found
+Warning:prerequisite Perlbal 1.53 not found
+Warning:prerequisite Sys::Syscall 0.22 not found
+
+需要安装以下包 needed PACKAGES are at: http://www.danga.com/dist/Danga-Socket/Danga-Socket-1.56.tar.gz 
+http://www.danga.com/dist/Danga-Socket/Danga-Socket-1.44.tar.gz(*) 
+http://www.danga.com/dist/Gearman/Gearman-1.07.tar.gz(?) 
+http://www.danga.com/dist/Gearman/Gearman-1.05.tar.gz 
+http://www.danga.com/dist/Gearman/Gearman-Client-Async-0.93.tar.gz 
+http://www.danga.com/dist/Gearman/Gearman-Server-1.08.tar.gz 
+http://search.cpan.org/CPAN/authors/id/M/MU/MUIR/modules/Net-Netmask-1.9015.tar.gz 
+http://search.cpan.org/CPAN/authors/id/B/BR/BRADFITZ/Perlbal-1.53.tar.gz 
+http://www.danga.com/dist/Sys-Syscall/Sys-Syscall-0.22.tar.gz 
+http://www.danga.com/dist/Gearman/Gearman-1.05.tar.gz(*) 
+http://search.cpan.org/CPAN/authors/id/S/SO/SOENKE/String-CRC32-1.4.tar.gz(*) 
+http://search.cpan.org/CPAN/authors/id/M/ML/MLEHMANN/IO-AIO-3.07.tar.gz 
+http://search.cpan.org/CPAN/authors/id/D/DS/DSKOLL/IO-stringy-2.110.tar.gz 
+http://www.danga.com/dist/MogileFS/client-perl/MogileFS-Client-1.08.tar.gz 
+(*) may be not necessary 
+
+$mkdir mogbench/packages 
+$cd packages 
+$wget PACKAGES 
+
+$sudo tar -xvf PACKAGES.tar.gz 
+$cd PACKAGES
+$sudo perl Makefile.PL
+$sudo make 
+$sudo make install
+
+PACKAGES installing order: 
+
+Sys-Syscall-0.22
+Danga-Socket-1.56
+Perlbal-1.53
+Gearman-1.07
+Gearman-Client-Asyne-0.93
+Gearman-Server-1.08
+
+
+Goto Step 3
+$sudo make
+$sudo make install
+
+7.5 数据库建立链接略
+初始化数据库 
+
+mogdbsetup -dbhost=192.168.1.183 -dbname=mogdb -dbuser=root -dbpassword=admin
+new file created at /etc/mogilefs/mogilefsd.conf 
+[CONTENT:] 
+db_dsn DBI:mysql:mogdb:192.168.1.183 
+db_user root
+db_pass admin
+conf_port 6001
+listener_jobs 5
+
+在mogile账户下运行tracker 
+
+$sudo adduser mogile
+password: admin
+$su mogile
+$mogilefsd -c /etc/mogilefs/mogilefsd.conf --daemon
+
+存储结点配置
+
+
+Part 2 Store Server(192.168.1.87) Configuration: 
+Pre-condition:
+Downloaded: 
+
+http://code.sixapart.com/svn/mogilefs/trunk 
+
+Installed 
+
+IO-stringy-2.110 
+MogileFS-Client-1.08 
+尝试安装 
+
+$sudo wget http://search.cpan.org/CPAN/authors/id/D/DS/DSKOLL/IO-stringy-2.110.tar.gz 
+$cd IO-stringy-2.110 
+$sudo perl Makefile.PL 
+$sudo make 
+$sudo make install 
+
+$sudo mkdir package 
+$cd package 
+$sudo tar -xvf MogileFS-Client-1.08.tar.gz 
+$cd MogileFS-Client-1.08 
+$sudo perl Makefile.PL 
+$sudo make 
+$sudo make install 
+
+$cd trunk/utils 
+$sudo perl Makefile.PL 
+$sudo make 
+$sudo make install 
+
+在/var下创建mogdata文件夹用于挂装存储结点并写好配置文件 
+
+$sudo mkdir /var/mogdata 
+create file at /etc/mogilefs/mogstored.conf 
+[CONTENT:] 
+httplisten=0.0.0.0:7500 
+mgmtlisten=0.0.0.0:7501 
+docroot=/var/mogdata 
+
+启动存储结点服务 
+
+$sudo mogstored --daemon 
+
+尝试添加一个存储结点192.168.1.87 
+
+$mogadm -lib=/usr/lib/perl5/5.8.8 -trackers=192.168.1.86:6001 host add mogstore_1 -ip=192.168.1.87 -port=7500 -status=alive 
+
+察看添加是否成功 
+
+$mogadm -lib=/usr/lib/perl5/5.8.8 -trackers=192.168.1.86:6001 host list 
+mogstore_1(1): alive 
+IP: 192.168.1.87:7500 
+
+尝试添加一个设备 
+
+$cd mogdata $sudo mkdir dev1 $mogadm -lib=/usr/lib/perl5/5.8.8 -trakcers=192.168.1.86:6001 device add mogstore_1 1 
+察看添加是否成功 
+
+$mogadm -lib=/usr/lib/perl5/5.8.8 -trackers=192.168.1.86:6001 device list 
+mogstore_1(1): alive 
+
+used(G) free(G) total(G) 
+
+
+dev1: alive 2.539 5.008 7.546 
+
+
+P.S. 在由蟒营提供的192.168.1.60主机上缺少gcc, make, libmysqlclient15-dev以及一些连接数据库所需的perl模块，安装步骤略有不同。 
+
+III、References:
+http://wiki.kc.kingsoft.net/moin/SetupMogilefsLocal 
+http://wiki.kc.kingsoft.net/moin/HowToSetupMogileFS 
+
+

@@ -1,0 +1,13 @@
+<table class="main" cellpadding="3" cellspacing="0" align="center">
+<tr><th>No</th><th>ID</th><th>Name</th><th>Department</th><th>&nbsp;</th><th>&nbsp;</th></tr>
+#for $listItem in $CList:
+<tr>
+<td class="main">$listItem['no']</td><td class="main">$listItem['ID']</td><td class="main">$listItem['name']</td><td class="main">$listItem['department']</td>
+<td class="main"><a href="removeRecord?recordId=$listItem['no']">
+Remove</a></td>
+<td class="main"><a href="editRecord?recordId=$listItem['no']">
+Edit</a></td>
+</tr>
+#end for
+</table>
+<p><a href="editAllRecords">edit record</a>

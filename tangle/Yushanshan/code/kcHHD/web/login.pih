@@ -1,0 +1,35 @@
+<body bgcolor="#99CCFF">
+
+<br><br>
+<div align='right'>
+<a href='registered.pih'> registerInterviewee</a></div>
+<br><br><br><br><br>
+<div align="center">
+<form action="../control/login.ks/check">
+<table border="1" >
+<tr>
+<td>
+Login</td> <td><input name="id"></td></tr>
+<tr>
+<td>
+Password </td><td><input type="password" name="password"></td></tr>
+<tr>
+<td>type</td>
+<td>
+  <br><select single name="selectstatue">
+  <option value="interviewee">Interviewee
+  <option value="interviewer">Interviewer
+  <option value="admin">Admin
+  <option value="assistant">Assistant
+  </select>
+  </td>
+</tr>
+<tr>
+<td align='right'><input type="submit" value=" O k "></td>
+<td><input type="reset" value="reset"></td>
+</tr>
+</table>
+</form>
+<br><br><br></div>
+
+

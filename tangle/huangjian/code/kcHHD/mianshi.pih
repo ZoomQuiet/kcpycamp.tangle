@@ -1,0 +1,31 @@
+<table width="200" border="1" align="center">
+<tbody><tr>
+<td>&nbsp;<a href="EnterResume.pih"> Enter&nbsp; resume</a></td></tr>
+<tr>
+<td>&nbsp;<a href="modify.pih"> Modify&nbsp;  resume</a></td></tr>
+<tr>
+<td>&nbsp;<a href="fileupload.pih"> UpLoad&nbsp; resume</a></td></tr>
+<tr>
+<td>&nbsp;<a href="seecalendar.pih"> See&nbsp;&nbsp;&nbsp; calendar</a></td></tr>
+<tr>
+<td>&nbsp; See&nbsp;&nbsp;&nbsp; Result</td></tr>
+</tbody></table>
+
+ <a href="Register.pih"> Back to Index</a>
+<br>
+
+<%
+import MySQLdb
+conn = MySQLdb.connect(host="localhost", user="root", passwd="sa", db="test")
+
+rs = conn.cursor()
+
+rs.execute("SELECT * FROM user")
+
+rows = rs.fetchall()
+
+for row in rows:
+    print row
+	
+conn.close()
+%>

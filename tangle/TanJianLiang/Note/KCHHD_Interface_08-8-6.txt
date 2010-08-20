@@ -1,0 +1,47 @@
+
+			DataInterface
+
+#学生信息类与其接口
+class StudentInfo
+
+	Add(Name,Sex,School,ID,Phone...)
+
+	Modify(NewData)
+
+		
+#帐户信息类与其接口
+class AccountsInfo
+
+	Add(Type,ID,pwd)
+
+	Modify(NewType,NewID,Newpwd)
+
+	
+#评议表模板类与接口
+class FormInfo
+
+	Add(Version,CodingAbility,AnalyseAbility,....)
+
+	Modify(NewData)
+
+#结果类与其接口
+class Result
+
+	GetResult(StuID)
+
+e.g
+
+1、用户名是否存在(name)
+	如果存在返回true
+	不存在返回false
+接口：
+IsExist(Type,ID)
+    return true/false
+
+
+2、用户名密码是否匹配(name, pwd)
+	匹配返回true
+	否则返回false
+接口：
+IsMatch(Type,ID,pwd)
+    return true/false	

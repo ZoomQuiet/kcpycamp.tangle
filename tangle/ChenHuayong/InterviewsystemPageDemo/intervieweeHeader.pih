@@ -1,0 +1,31 @@
+<html>
+<head>
+<title><%= title %></title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<h2 align = 'center'><font size="7"><%= title %></font></h2>
+<style type="text/css">
+body, td { font-family: verdana, sans-serif;
+    font-size: 12px;
+    }
+
+table.main { border-width: 0px 0px 1px 1px;
+    border-color: #000000;
+    border-style: solid;
+    }
+
+td.main,th { border-width: 1px 1px 0px 0px;
+    border-color: #000000;
+    border-style: solid;
+    }
+</style>
+<table width="600" border="0" align="center">
+<tr>
+<td><a href="resume">|Resume|</a></td>
+<td><a href="uploadresume">|UpLoad Resume|</a></td>
+<td><a href="calendar"> |Calendar|</a></td>
+<td><a href="result"> |Result|</a></td>
+</tr>
+</table>
+</head>
+<body>
+

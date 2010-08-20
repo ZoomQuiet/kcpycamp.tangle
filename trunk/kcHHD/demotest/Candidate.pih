@@ -1,0 +1,14 @@
+<!-- Home page for Association -->
+
+<head>
+    <title>Interview System</title>
+    <link rel="stylesheet" type="text/css" HREF="k_base.css">
+</head>
+<h3>Interviewer</h3>
+
+<% 
+Include("k_tabs.hip",
+    labels=["Interview Schedule","Candidates","Review Table"],
+    urls=["InterviewSchedule.htm","Candidates.htm","ReviewTable.htm"],
+    targetUrl="Candidate.pih")
+%>

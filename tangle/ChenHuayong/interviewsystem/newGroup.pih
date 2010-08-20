@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<table width="80%" border="0" align="center">
+  <tr>
+    <td></span><h1>New Group: </h1></td>
+    <td width="50%"><div align="center"><a href="AssistantPage.pih">homepage</a></td>
+  </tr>
+</table>
+
+<div align="center">
+  <p><br>
+
+<form action="ManageInterviewer.pih">
+<table width="20%" border="0" align="center" cellspacing="8">
+  <tr>
+    <th width="20%" bgcolor="#CCCCCC" scope="row">GroupName<br></th>
+    <td><input name="textfield" type="text" value="September"></td>
+  </tr>
+  <tr>
+    <th bgcolor="#CCCCCC" scope="row">description<br></th>
+    <td><textarea name="text" rows="10" cols="30"></textarea></td>
+  </tr>
+  <tr>
+    <th scope="row"> <div align="right">
+    <input type='submit' name='submit' value='OK'></div></th>
+    <td><div align="left">
+    <input type = "reset" name=reset value='reset'></div></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

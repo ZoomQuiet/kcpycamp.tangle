@@ -1,0 +1,14 @@
+<!-- Home page for Association -->
+
+<head>
+    <title>InterviewSystem</title>
+    <link rel="stylesheet" type="text/css" HREF="k_base.css">
+</head>
+<h3>AdminPage</h3>
+
+<% 
+Include("k_tabs.hip",
+    labels=["Manange User","Manage Operation"],
+    urls=["A.pih","B.pih"],
+    targetUrl="AdminPage.pih")
+%>

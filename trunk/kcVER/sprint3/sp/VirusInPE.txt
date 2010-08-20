@@ -1,0 +1,35 @@
+病毒英文名称: VirusInPE
+病毒长度: 558906
+威胁级别: ★
+关键词: 
+影响系统:win9x/winMe/winNT/win2000/winXP/win2003
+病毒类型: 
+感染途径: 
+
+病毒简介:
+
+该病毒会在磁盘中释放出文件，会修改注册表。
+
+行为分析:
+
+在磁盘中释放出以下文件:
+C:\WINDOWS\TEMP\
+C:\WINDOWS\TEMP\nsw8199.tmp
+C:\WINDOWS\TEMP\nsq0099.tmp
+C:\WINDOWS\TEMP\nsc0099.tmp
+C:\WINDOWS
+C:\WINDOWS\TEMP
+C:\WINDOWS\TEMP\nsc0099.tmp
+C:\WINDOWS\TEMP\nsc0099.tmp\System.dll
+
+在磁盘中删除了以下文件:
+C:\WINDOWS\TEMP\nsw8199.tmp
+C:\WINDOWS\TEMP\nsc0099.tmp
+
+会从以下注册表中读取信息:
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\MySidesearchSearchAssistant"
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\mySearchAssistant"
+
+病毒会通过以下途径传播:
+病毒会利用网络进行传播
+

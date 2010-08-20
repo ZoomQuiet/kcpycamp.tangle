@@ -1,0 +1,22 @@
+邢佳完成:
+用户命令设定(txt格式)
+用户操作流程图(图片格式)
+用户操作程序界面(程序代码格式)
+
+
+
+主界面:MainMenu.py
+模式界面:ModeMenu.py
+帮助界面:HelpMenu.py
+自定义菜单界面:CustomMenu.py
+程序处理过程界面: CRJWORKING.PY
+
+控制4个界面的ControlMenu
+
+依次运行上面文件,可以实现用户操作界面
+
+全局变量约定:
+szCmdMainMenu   在主菜单时接收用于所输入的命令
+szCmdModeMenu	在模式菜单时接收用于所输入的命令
+szCmdCustomMenu	在自定义菜单时接收用于所输入的命令
+

@@ -1,0 +1,34 @@
+<br><br>
+<div align='right'>
+<a href='Register.pih'> registerInterviewee</a></div>
+<br><br><br><br><br>
+<div align="center">
+<form action="home.ks/check">
+<table>
+<tr>
+<td>
+Login</td> <td><input name="login"></td></tr>
+<tr>
+<td>
+Password </td><td><input type="password" name="password"></td></tr>
+<tr>
+<td>type</td>
+<td>
+  <br><select single name="selectstatue">
+  <option value="1">Interviewee
+  <option value="2">Interviewer
+  <option value="3">Admin
+  <option value="4">Assistant
+  </select>
+  </td>
+  
+</tr>
+<tr>
+<td align='right'><input type="submit" value=" O k "></td>
+<td><input type="reset" value="reset"></td>
+</tr>
+</table>
+</form>
+<br><br><br></div>
+
+

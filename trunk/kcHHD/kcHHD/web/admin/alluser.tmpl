@@ -1,0 +1,21 @@
+﻿<head>
+<LINK REL="stylesheet" HREF="../css/szpay.css" TYPE="text/css">
+</head>
+<br><br><br><br><br><br><br><br>
+<table class="main" cellpadding="3" cellspacing="0" align="center" width="50%">
+<tr><th>序号</th><th>登陆ID</th><th>名字</th><th>操作</th></tr>
+#for $listItem in $CList:
+<tr>
+<td class="main"><img src="/kcHHD/web/img/1.jpg" width="20" height="20">
+ $listItem['ID']&nbsp;
+</td>
+<td class="main">$listItem['AccountID']&nbsp;</td>
+<td class="main">$listItem['Name']&nbsp;</td>
+<td class="main" align = "center">
+<a href = "/kcHHD/control/admin.ks/edit?AccountID=$listItem['AccountID']">  |修改|</a>
+<a href = "/kcHHD/control/admin.ks/remove?AccountID=$listItem['AccountID']">|删除|</a>    
+</td>
+</tr>
+#end for
+</table>
+<p>
