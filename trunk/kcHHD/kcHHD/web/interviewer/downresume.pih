@@ -1,8 +1,0 @@
-﻿
-
-<body>
-<center>
-
-<a href=<% print srcdir.encode('utf') %>> 点击此处下载</a>
-
-</body>

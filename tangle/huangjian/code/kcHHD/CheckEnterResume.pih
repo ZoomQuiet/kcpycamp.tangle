@@ -1,6 +1,0 @@
-good
-success
-<br>
-<%
-print ' <a href="mianshi.pih"> Back to Index</a>'
-%>

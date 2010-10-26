@@ -1,0 +1,1603 @@
+Python 2.5.1 (r251:54863, Apr 18 2007, 08:51:08) [MSC v.1310 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+    ****************************************************************
+    Personal firewall software may warn about the connection IDLE
+    makes to its subprocess using this computer's internal loopback
+    interface.  This connection is not visible on any external
+    interface and no data is sent to or received from the Internet.
+    ****************************************************************
+    
+IDLE 1.2.1      
+>>> i=0
+>>> i++
+SyntaxError: invalid syntax
+>>> i+=1
+>>> i
+1
+>>> i+=1
+>>> i+=1
+>>> i+=1i+=1
+SyntaxError: invalid syntax
+>>> i+=1
+>>> i+=1
+>>> i
+5
+>>> def foo(id)
+SyntaxError: invalid syntax
+>>> def foo(id):
+	id +=10
+
+>>> id = 5
+>>> foo(id)
+>>> id
+5
+>>> id
+5
+>>> id
+5
+>>> di
+
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    di
+NameError: name 'di' is not defined
+>>> id
+5
+>>> id
+5
+>>> def foo(id):
+	id +=10
+	print id
+
+	
+>>> foo(5)
+15
+>>> id
+5
+>>> id
+5
+>>> def foo(id):
+	id +=10
+	print id
+	return id
+
+>>> foo(10)
+20
+20
+>>> id
+5
+>>> id
+5
+>>> id
+5
+>>> foo(id)
+15
+15
+>>> foo
+<function foo at 0x00CC18F0>
+>>> foo(id)
+15
+15
+>>> id
+5
+>>> b= foo(id)
+15
+>>> b
+15
+>>> id
+5
+>>> dif
+
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    dif
+NameError: name 'dif' is not defined
+>>> for i in range(5):
+	print i
+
+0
+1
+2
+3
+4
+>>> for i in range(4):
+	print i
+    else:
+	    
+  File "<pyshell#48>", line 3
+    else:
+        
+^
+IndentationError: unindent does not match any outer indentation level
+>>> s='123456'
+>>> s.split(':')
+['123456']
+>>> s.replace('.','*****')
+'123456'
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+>>> ================================ RESTART ================================
+>>> 
+103981
+52
+>>> ================================ RESTART ================================
+>>> 
+section: ['concurrent', 'db']
+options: ['db_port', 'db_user', 'db_host', 'db_pass']
+db: [('db_port', '3306'), ('db_user', 'root'), ('db_host', '127.0.0.1'), ('db_pass', 'password')]
+------------------------------------------------------------
+db_host: 127.0.0.1
+db_port: 3306
+db_user: root
+db_pass: password
+thread: 10
+processor: 20
+>>> a='123456789'
+>>> a='abcdEFGHijkl'
+>>> help(str.find)
+Help on method_descriptor:
+
+find(...)
+    S.find(sub [,start [,end]]) -> int
+    
+    Return the lowest index in S where substring sub is found,
+    such that sub is contained within s[start,end].  Optional
+    arguments start and end are interpreted as in slice notation.
+    
+    Return -1 on failure.
+
+>>> a.tolower
+
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    a.tolower
+AttributeError: 'str' object has no attribute 'tolower'
+>>> dir(a\)
+    
+SyntaxError: unexpected character after line continuation character
+>>> dir(a)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__str__', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> a.lower
+<built-in method lower of str object at 0x00CD4C50>
+>>> a.lower()
+'abcdefghijkl'
+>>> a
+'abcdEFGHijkl'
+>>> a.lower().find('ef')
+4
+>>> a[4:4+2]
+'EF'
+>>> s = """a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+未打GDI+漏洞补丁
+未打MS04-028补丁的英文版WinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+其它
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}"""
+>>> s
+'a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT \nWin9x\n\xce\xb4\xb4\xf2GDI+\xc2\xa9\xb6\xb4\xb2\xb9\xb6\xa1\n\xce\xb4\xb4\xf2MS04-028\xb2\xb9\xb6\xa1\xb5\xc4\xd3\xa2\xce\xc4\xb0\xe6WinXP SP1\nWin9x Win2000 WinXP\nWin9x WinNT Win2000 WinXP Win2003 \nWin9x Win2000 WinXP Win2003\nDOS\nDOS Win3.1\nWin9x WinNT Win2000 WinXP\nWinNT Win2000 WinXP Win2003\nWin2000 WinXP\nWin32\nWinNT Win2000\nWin2000 WinXP Win2003\nWin9x Win2000\nWin9x WinMe WinNT Win2000 Win2003\nWin9x WinMe WinNT Win2000 WinXP Win2003\nWin9x WinMe WinNT Win2000 WinXP\nWin9x WinNT Win2000\nWin9x WinMe Win2000 WinXP\nWin98\nWin9x WinMe\nWin9x WinMe Win2000\nWin9x WinXP\nWinNT Win2000 WinXP\nWinNT\nWin9x WinNT Win2000 Unix Linux\n\xc6\xe4\xcb\xfc\nWinXP Win2003";s:18:"allowed_values_php";s:0:"";}'
+>>> print s
+a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+未打GDI+漏洞补丁
+未打MS04-028补丁的英文版WinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+其它
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+>>> print s
+a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+未打GDI+漏洞补丁
+未打MS04-028补丁的英文版WinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+其它
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+>>> print s
+a:4:{s:15:"text_processing";s:1:"0";s:10:"max_length";s:3:"100";s:14:"allowed_values";s:614:"Win9x WinNT 
+Win9x
+未打GDI+漏洞补丁
+未打MS04-028补丁的英文版WinXP SP1
+Win9x Win2000 WinXP
+Win9x WinNT Win2000 WinXP Win2003 
+Win9x Win2000 WinXP Win2003
+DOS
+DOS Win3.1
+Win9x WinNT Win2000 WinXP
+WinNT Win2000 WinXP Win2003
+Win2000 WinXP
+Win32
+WinNT Win2000
+Win2000 WinXP Win2003
+Win9x Win2000
+Win9x WinMe WinNT Win2000 Win2003
+Win9x WinMe WinNT Win2000 WinXP Win2003
+Win9x WinMe WinNT Win2000 WinXP
+Win9x WinNT Win2000
+Win9x WinMe Win2000 WinXP
+Win98
+Win9x WinMe
+Win9x WinMe Win2000
+Win9x WinXP
+WinNT Win2000 WinXP
+WinNT
+Win9x WinNT Win2000 Unix Linux
+其它
+WinXP Win2003";s:18:"allowed_values_php";s:0:"";}
+>>> def GetPlatform(s0 , platform):
+	sp=platform.replace('/',' ')
+	index = s0.lower().find(sp.lower())
+	return s0[index:index+len(sp)]
+b=GetPlatform(s,'win9x/winMe/winNT/win2000/winXP/win2003')
+SyntaxError: invalid syntax
+>>> GetPlatform
+
+Traceback (most recent call last):
+  File "<pyshell#73>", line 1, in <module>
+    GetPlatform
+NameError: name 'GetPlatform' is not defined
+>>> GetPlatform
+
+Traceback (most recent call last):
+  File "<pyshell#74>", line 1, in <module>
+    GetPlatform
+NameError: name 'GetPlatform' is not defined
+>>> def GetPlatform(s0 , platform):
+	sp=platform.replace('/',' ')
+	index = s0.lower().find(sp.lower())
+	return s0[index:index+len(sp)]
+
+>>> GetPlatform
+<function GetPlatform at 0x011DB130>
+>>> def GetPlatform(s0 , platform):
+	sp=platform.replace('/',' ')
+	index = s0.lower().find(sp.lower())
+	return s0[index:index+len(sp)]
+b=GetPlatform(s,'win9x/winMe/winNT/win2000/winXP/win2003')
+SyntaxError: invalid syntax
+>>> b=GetPlatform(s,'win9x/winMe/winNT/win2000/winXP/win2003')
+
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b
+'Win9x WinMe WinNT Win2000 WinXP Win2003'
+>>> b=GetPlatform(s,'其他')
+>>> b
+''
+>>> b=
+SyntaxError: invalid syntax
+>>> b=GetPlatform(s,'其它')
+>>> b
+'\xc6\xe4\xcb\xfc'
+>>> print b
+其它
+>>> import ConfigParser
+>>> ConfigParser
+<module 'ConfigParser' from 'F:\Python25\lib\ConfigParser.pyc'>
+>>> dir(ConfigParser)
+['ConfigParser', 'DEFAULTSECT', 'DuplicateSectionError', 'Error', 'InterpolationDepthError', 'InterpolationError', 'InterpolationMissingOptionError', 'InterpolationSyntaxError', 'MAX_INTERPOLATION_DEPTH', 'MissingSectionHeaderError', 'NoOptionError', 'NoSectionError', 'ParsingError', 'RawConfigParser', 'SafeConfigParser', '__all__', '__builtins__', '__doc__', '__file__', '__name__', 're']
+>>> help()
+KeyboardInterrupt
+>>> help(ConfigParser)
+KeyboardInterrupt
+>>> ConfigParser(ConfigParser)
+
+Traceback (most recent call last):
+  File "<pyshell#114>", line 1, in <module>
+    ConfigParser(ConfigParser)
+TypeError: 'module' object is not callable
+>>> help(ConfigParser)
+Help on module ConfigParser:
+
+NAME
+    ConfigParser - Configuration file parser.
+
+FILE
+    f:\python25\lib\configparser.py
+
+DESCRIPTION
+    A setup file consists of sections, lead by a "[section]" header,
+    and followed by "name: value" entries, with continuations and such in
+    the style of RFC 822.
+    
+    The option values can contain format strings which refer to other values in
+    the same section, or values in a special [DEFAULT] section.
+    
+    For example:
+    
+        something: %(dir)s/whatever
+    
+    would resolve the "%(dir)s" to the value of dir.  All reference
+    expansions are done late, on demand.
+    
+    Intrinsic defaults can be specified by passing them into the
+    ConfigParser constructor as a dictionary.
+    
+    class:
+    
+    ConfigParser -- responsible for parsing a list of
+                    configuration files, and managing the parsed database.
+    
+        methods:
+    
+        __init__(defaults=None)
+            create the parser and specify a dictionary of intrinsic defaults.  The
+            keys must be strings, the values must be appropriate for %()s string
+            interpolation.  Note that `__name__' is always an intrinsic default;
+            its value is the section's name.
+    
+        sections()
+            return all the configuration section names, sans DEFAULT
+    
+        has_section(section)
+            return whether the given section exists
+    
+        has_option(section, option)
+            return whether the given option exists in the given section
+    
+        options(section)
+            return list of configuration options for the named section
+    
+        read(filenames)
+            read and parse the list of named configuration files, given by
+            name.  A single filename is also allowed.  Non-existing files
+            are ignored.  Return list of successfully read files.
+    
+        readfp(fp, filename=None)
+            read and parse one configuration file, given as a file object.
+            The filename defaults to fp.name; it is only used in error
+            messages (if fp has no `name' attribute, the string `<???>' is used).
+    
+        get(section, option, raw=False, vars=None)
+            return a string value for the named option.  All % interpolations are
+            expanded in the return values, based on the defaults passed into the
+            constructor and the DEFAULT section.  Additional substitutions may be
+            provided using the `vars' argument, which must be a dictionary whose
+            contents override any pre-existing defaults.
+    
+        getint(section, options)
+            like get(), but convert value to an integer
+    
+        getfloat(section, options)
+            like get(), but convert value to a float
+    
+        getboolean(section, options)
+            like get(), but convert value to a boolean (currently case
+            insensitively defined as 0, false, no, off for False, and 1, true,
+            yes, on for True).  Returns False or True.
+    
+        items(section, raw=False, vars=None)
+            return a list of tuples with (name, value) for each option
+            in the section.
+    
+        remove_section(section)
+            remove the given file section and all its options
+    
+        remove_option(section, option)
+            remove the given option from the given section
+    
+        set(section, option, value)
+            set the given option
+    
+        write(fp)
+            write the configuration state in .ini format
+
+CLASSES
+    Error(exceptions.Exception)
+        DuplicateSectionError
+        InterpolationError
+            InterpolationDepthError
+            InterpolationSyntaxError
+        NoOptionError
+        NoSectionError
+        ParsingError
+            MissingSectionHeaderError
+    RawConfigParser
+        ConfigParser
+            SafeConfigParser
+    
+    class ConfigParser(RawConfigParser)
+     |  Methods defined here:
+     |  
+     |  get(self, section, option, raw=False, vars=None)
+     |      Get an option value for a given section.
+     |      
+     |      All % interpolations are expanded in the return values, based on the
+     |      defaults passed into the constructor, unless the optional argument
+     |      `raw' is true.  Additional substitutions may be provided using the
+     |      `vars' argument, which must be a dictionary whose contents overrides
+     |      any pre-existing defaults.
+     |      
+     |      The section DEFAULT is special.
+     |  
+     |  items(self, section, raw=False, vars=None)
+     |      Return a list of tuples with (name, value) for each option
+     |      in the section.
+     |      
+     |      All % interpolations are expanded in the return values, based on the
+     |      defaults passed into the constructor, unless the optional argument
+     |      `raw' is true.  Additional substitutions may be provided using the
+     |      `vars' argument, which must be a dictionary whose contents overrides
+     |      any pre-existing defaults.
+     |      
+     |      The section DEFAULT is special.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from RawConfigParser:
+     |  
+     |  __init__(self, defaults=None)
+     |  
+     |  add_section(self, section)
+     |      Create a new section in the configuration.
+     |      
+     |      Raise DuplicateSectionError if a section by the specified name
+     |      already exists.
+     |  
+     |  defaults(self)
+     |  
+     |  getboolean(self, section, option)
+     |  
+     |  getfloat(self, section, option)
+     |  
+     |  getint(self, section, option)
+     |  
+     |  has_option(self, section, option)
+     |      Check for the existence of a given option in a given section.
+     |  
+     |  has_section(self, section)
+     |      Indicate whether the named section is present in the configuration.
+     |      
+     |      The DEFAULT section is not acknowledged.
+     |  
+     |  options(self, section)
+     |      Return a list of option names for the given section name.
+     |  
+     |  optionxform(self, optionstr)
+     |  
+     |  read(self, filenames)
+     |      Read and parse a filename or a list of filenames.
+     |      
+     |      Files that cannot be opened are silently ignored; this is
+     |      designed so that you can specify a list of potential
+     |      configuration file locations (e.g. current directory, user's
+     |      home directory, systemwide directory), and all existing
+     |      configuration files in the list will be read.  A single
+     |      filename may also be given.
+     |      
+     |      Return list of successfully read files.
+     |  
+     |  readfp(self, fp, filename=None)
+     |      Like read() but the argument must be a file-like object.
+     |      
+     |      The `fp' argument must have a `readline' method.  Optional
+     |      second argument is the `filename', which if not given, is
+     |      taken from fp.name.  If fp has no `name' attribute, `<???>' is
+     |      used.
+     |  
+     |  remove_option(self, section, option)
+     |      Remove an option.
+     |  
+     |  remove_section(self, section)
+     |      Remove a file section.
+     |  
+     |  sections(self)
+     |      Return a list of section names, excluding [DEFAULT]
+     |  
+     |  set(self, section, option, value)
+     |      Set an option.
+     |  
+     |  write(self, fp)
+     |      Write an .ini-format representation of the configuration state.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from RawConfigParser:
+     |  
+     |  OPTCRE = <_sre.SRE_Pattern object at 0x00C0D1B0>
+     |  
+     |  SECTCRE = <_sre.SRE_Pattern object at 0x00BA7920>
+    
+    class DuplicateSectionError(Error)
+     |  Raised when a section is multiply-created.
+     |  
+     |  Method resolution order:
+     |      DuplicateSectionError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, section)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class InterpolationDepthError(InterpolationError)
+     |  Raised when substitutions are nested too deeply.
+     |  
+     |  Method resolution order:
+     |      InterpolationDepthError
+     |      InterpolationError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, option, section, rawval)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class InterpolationError(Error)
+     |  Base class for interpolation-related exceptions.
+     |  
+     |  Method resolution order:
+     |      InterpolationError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, option, section, msg)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class InterpolationSyntaxError(InterpolationError)
+     |  Raised when the source text into which substitutions are made
+     |  does not conform to the required syntax.
+     |  
+     |  Method resolution order:
+     |      InterpolationSyntaxError
+     |      InterpolationError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods inherited from InterpolationError:
+     |  
+     |  __init__(self, option, section, msg)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class MissingSectionHeaderError(ParsingError)
+     |  Raised when a key-value pair is found before any section header.
+     |  
+     |  Method resolution order:
+     |      MissingSectionHeaderError
+     |      ParsingError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, filename, lineno, line)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from ParsingError:
+     |  
+     |  append(self, lineno, line)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class NoOptionError(Error)
+     |  A requested option was not found.
+     |  
+     |  Method resolution order:
+     |      NoOptionError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, option, section)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class NoSectionError(Error)
+     |  Raised when no section matches a requested option.
+     |  
+     |  Method resolution order:
+     |      NoSectionError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, section)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class ParsingError(Error)
+     |  Raised when a configuration file does not follow legal syntax.
+     |  
+     |  Method resolution order:
+     |      ParsingError
+     |      Error
+     |      exceptions.Exception
+     |      exceptions.BaseException
+     |      __builtin__.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, filename)
+     |  
+     |  append(self, lineno, line)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Error:
+     |  
+     |  __repr__(self)
+     |  
+     |  __str__ = __repr__(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Error:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from exceptions.Exception:
+     |  
+     |  __new__ = <built-in method __new__ of type object at 0x1E1CBBE8>
+     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from exceptions.BaseException:
+     |  
+     |  __delattr__(...)
+     |      x.__delattr__('name') <==> del x.name
+     |  
+     |  __getattribute__(...)
+     |      x.__getattribute__('name') <==> x.name
+     |  
+     |  __getitem__(...)
+     |      x.__getitem__(y) <==> x[y]
+     |  
+     |  __getslice__(...)
+     |      x.__getslice__(i, j) <==> x[i:j]
+     |      
+     |      Use of negative indices is not supported.
+     |  
+     |  __reduce__(...)
+     |  
+     |  __setattr__(...)
+     |      x.__setattr__('name', value) <==> x.name = value
+     |  
+     |  __setstate__(...)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from exceptions.BaseException:
+     |  
+     |  __dict__
+     |  
+     |  args
+     |  
+     |  message
+     |      exception message
+    
+    class RawConfigParser
+     |  Methods defined here:
+     |  
+     |  __init__(self, defaults=None)
+     |  
+     |  add_section(self, section)
+     |      Create a new section in the configuration.
+     |      
+     |      Raise DuplicateSectionError if a section by the specified name
+     |      already exists.
+     |  
+     |  defaults(self)
+     |  
+     |  get(self, section, option)
+     |  
+     |  getboolean(self, section, option)
+     |  
+     |  getfloat(self, section, option)
+     |  
+     |  getint(self, section, option)
+     |  
+     |  has_option(self, section, option)
+     |      Check for the existence of a given option in a given section.
+     |  
+     |  has_section(self, section)
+     |      Indicate whether the named section is present in the configuration.
+     |      
+     |      The DEFAULT section is not acknowledged.
+     |  
+     |  items(self, section)
+     |  
+     |  options(self, section)
+     |      Return a list of option names for the given section name.
+     |  
+     |  optionxform(self, optionstr)
+     |  
+     |  read(self, filenames)
+     |      Read and parse a filename or a list of filenames.
+     |      
+     |      Files that cannot be opened are silently ignored; this is
+     |      designed so that you can specify a list of potential
+     |      configuration file locations (e.g. current directory, user's
+     |      home directory, systemwide directory), and all existing
+     |      configuration files in the list will be read.  A single
+     |      filename may also be given.
+     |      
+     |      Return list of successfully read files.
+     |  
+     |  readfp(self, fp, filename=None)
+     |      Like read() but the argument must be a file-like object.
+     |      
+     |      The `fp' argument must have a `readline' method.  Optional
+     |      second argument is the `filename', which if not given, is
+     |      taken from fp.name.  If fp has no `name' attribute, `<???>' is
+     |      used.
+     |  
+     |  remove_option(self, section, option)
+     |      Remove an option.
+     |  
+     |  remove_section(self, section)
+     |      Remove a file section.
+     |  
+     |  sections(self)
+     |      Return a list of section names, excluding [DEFAULT]
+     |  
+     |  set(self, section, option, value)
+     |      Set an option.
+     |  
+     |  write(self, fp)
+     |      Write an .ini-format representation of the configuration state.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  OPTCRE = <_sre.SRE_Pattern object at 0x00C0D1B0>
+     |  
+     |  SECTCRE = <_sre.SRE_Pattern object at 0x00BA7920>
+    
+    class SafeConfigParser(ConfigParser)
+     |  Method resolution order:
+     |      SafeConfigParser
+     |      ConfigParser
+     |      RawConfigParser
+     |  
+     |  Methods defined here:
+     |  
+     |  set(self, section, option, value)
+     |      Set an option.  Extend ConfigParser.set: check for string values.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from ConfigParser:
+     |  
+     |  get(self, section, option, raw=False, vars=None)
+     |      Get an option value for a given section.
+     |      
+     |      All % interpolations are expanded in the return values, based on the
+     |      defaults passed into the constructor, unless the optional argument
+     |      `raw' is true.  Additional substitutions may be provided using the
+     |      `vars' argument, which must be a dictionary whose contents overrides
+     |      any pre-existing defaults.
+     |      
+     |      The section DEFAULT is special.
+     |  
+     |  items(self, section, raw=False, vars=None)
+     |      Return a list of tuples with (name, value) for each option
+     |      in the section.
+     |      
+     |      All % interpolations are expanded in the return values, based on the
+     |      defaults passed into the constructor, unless the optional argument
+     |      `raw' is true.  Additional substitutions may be provided using the
+     |      `vars' argument, which must be a dictionary whose contents overrides
+     |      any pre-existing defaults.
+     |      
+     |      The section DEFAULT is special.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from RawConfigParser:
+     |  
+     |  __init__(self, defaults=None)
+     |  
+     |  add_section(self, section)
+     |      Create a new section in the configuration.
+     |      
+     |      Raise DuplicateSectionError if a section by the specified name
+     |      already exists.
+     |  
+     |  defaults(self)
+     |  
+     |  getboolean(self, section, option)
+     |  
+     |  getfloat(self, section, option)
+     |  
+     |  getint(self, section, option)
+     |  
+     |  has_option(self, section, option)
+     |      Check for the existence of a given option in a given section.
+     |  
+     |  has_section(self, section)
+     |      Indicate whether the named section is present in the configuration.
+     |      
+     |      The DEFAULT section is not acknowledged.
+     |  
+     |  options(self, section)
+     |      Return a list of option names for the given section name.
+     |  
+     |  optionxform(self, optionstr)
+     |  
+     |  read(self, filenames)
+     |      Read and parse a filename or a list of filenames.
+     |      
+     |      Files that cannot be opened are silently ignored; this is
+     |      designed so that you can specify a list of potential
+     |      configuration file locations (e.g. current directory, user's
+     |      home directory, systemwide directory), and all existing
+     |      configuration files in the list will be read.  A single
+     |      filename may also be given.
+     |      
+     |      Return list of successfully read files.
+     |  
+     |  readfp(self, fp, filename=None)
+     |      Like read() but the argument must be a file-like object.
+     |      
+     |      The `fp' argument must have a `readline' method.  Optional
+     |      second argument is the `filename', which if not given, is
+     |      taken from fp.name.  If fp has no `name' attribute, `<???>' is
+     |      used.
+     |  
+     |  remove_option(self, section, option)
+     |      Remove an option.
+     |  
+     |  remove_section(self, section)
+     |      Remove a file section.
+     |  
+     |  sections(self)
+     |      Return a list of section names, excluding [DEFAULT]
+     |  
+     |  write(self, fp)
+     |      Write an .ini-format representation of the configuration state.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from RawConfigParser:
+     |  
+     |  OPTCRE = <_sre.SRE_Pattern object at 0x00C0D1B0>
+     |  
+     |  SECTCRE = <_sre.SRE_Pattern object at 0x00BA7920>
+
+DATA
+    DEFAULTSECT = 'DEFAULT'
+    MAX_INTERPOLATION_DEPTH = 10
+    __all__ = ['NoSectionError', 'DuplicateSectionError', 'NoOptionError',...
+
+
+>>> ================================ RESTART ================================
+>>> 
+sec ['txt_field', 'db_field', 'db']
+>>> ================================ RESTART ================================
+>>> 
+sec ['txt_field', 'db_field', 'db']
+item [('\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', ''), ('\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3', ''), ('\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', ''), ('\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xb9\xd8\xbc\xfc\xb4\xca', ''), ('\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6', ''), ('\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', ''), ('\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', ''), ('\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', ''), ('\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', '')]
+>>> ================================ RESTART ================================
+>>> 
+sec ['txt_field', 'db_field', 'db']
+item [('\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', ''), ('\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3', ''), ('\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', ''), ('\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xb9\xd8\xbc\xfc\xb4\xca', ''), ('\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6', ''), ('\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', ''), ('\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', ''), ('\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', ''), ('\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', '')]
+('\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', '')
+('\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', '')
+('\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3', '')
+('\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', '')
+('\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', '')
+('\xb9\xd8\xbc\xfc\xb4\xca', '')
+('\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6', '')
+('\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', '')
+('\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', '')
+('\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', '')
+('\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', '')
+>>> ================================ RESTART ================================
+>>> 
+sec ['txt_field', 'db_field', 'db']
+item [('\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', ''), ('\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3', ''), ('\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', ''), ('\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xb9\xd8\xbc\xfc\xb4\xca', ''), ('\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6', ''), ('\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', ''), ('\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', ''), ('\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', ''), ('\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', '')]
+病毒类型 
+病毒英文名称 
+影响系统 
+威胁级别 
+病毒中文名称 
+关键�?
+感染途径 
+病毒简�?
+病毒别名 
+行为分析 
+病毒长度 
+>>> ================================ RESTART ================================
+>>> 
+sec ['txt_field', 'db_field', 'db']
+item [('\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd', ''), ('\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3', ''), ('\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0', ''), ('\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6', ''), ('\xb9\xd8\xbc\xfc\xb4\xca', ''), ('\xb8\xd0\xc8\xbe\xcd\xbe\xbe\xb6', ''), ('\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9', ''), ('\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb', ''), ('\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6', ''), ('\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8', '')]
+病毒类型 [  ]
+病毒英文名称 [  ]
+影响系统 [  ]
+威胁级别 [  ]
+病毒中文名称 [  ]
+关键�?[  ]
+感染途径 [  ]
+病毒简�?[  ]
+病毒别名 [  ]
+行为分析 [  ]
+病毒长度 [  ]
+item [('var_field_brief_value', '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9?????'), ('var_field_cnname_value', '\xb2\xa1\xb6\xbe\xd6\xd0\xce\xc4\xc3\xfb\xb3\xc6'), ('var_teaser', '\xb2\xa1\xb6\xbe\xbc\xf2\xbd\xe9'), ('var_field_category_value', '\xb2\xa1\xb6\xbe\xc0\xe0\xd0\xcd'), ('var_title', '\xb2\xa1\xb6\xbe\xd3\xa2\xce\xc4\xc3\xfb\xb3\xc6'), ('var_field_length_value', '\xb2\xa1\xb6\xbe\xb3\xa4\xb6\xc8'), ('var_body', '\xd0\xd0\xce\xaa\xb7\xd6\xce\xf6'), ('var_field_alias_value', '\xb2\xa1\xb6\xbe\xb1\xf0\xc3\xfb'), ('var_field_level_value', '\xcd\xfe\xd0\xb2\xbc\xb6\xb1\xf0'), ('var_field_platform_value', '\xd3\xb0\xcf\xec\xcf\xb5\xcd\xb3')]
+var_field_brief_value [ 病毒简�????? ]
+var_field_cnname_value [ 病毒中文名称 ]
+var_teaser [ 病毒简�?]
+var_field_category_value [ 病毒类型 ]
+var_title [ 病毒英文名称 ]
+var_field_length_value [ 病毒长度 ]
+var_body [ 行为分析 ]
+var_field_alias_value [ 病毒别名 ]
+var_field_level_value [ 威胁级别 ]
+var_field_platform_value [ 影响系统 ]
+>>> ================================ RESTART ================================
+>>> 
+sec ['txt_field', 'db_field', 'db']
+病毒类型 [  ]
+病毒英文名称 [  ]
+影响系统 [  ]
+威胁级别 [  ]
+病毒中文名称 [  ]
+关键�?[  ]
+感染途径 [  ]
+病毒简�?[  ]
+病毒别名 [  ]
+行为分析 [  ]
+病毒长度 [  ]
+var_field_brief_value [ 病毒简�????? ]
+var_field_cnname_value [ 病毒中文名称 ]
+var_teaser [ 病毒简�?]
+var_field_category_value [ 病毒类型 ]
+var_title [ 病毒英文名称 ]
+var_field_length_value [ 病毒长度 ]
+var_body [ 行为分析 ]
+var_field_alias_value [ 病毒别名 ]
+var_field_level_value [ 威胁级别 ]
+var_field_platform_value [ 影响系统 ]
+>>> ================================ RESTART ================================
+>>> 
+>>> import md5
+>>> dir(md5)
+['__builtins__', '__doc__', '__file__', '__name__', 'blocksize', 'digest_size', 'md5', 'new']
+>>> md5.md5('admin')
+<md5 HASH object @ 01327880>
+>>> b=md5.md5('admin')
+>>> print b
+<md5 HASH object @ 0133B020>
+>>> 
+>>> dir(b)
+['__class__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'block_size', 'copy', 'digest', 'digest_size', 'digestsize', 'hexdigest', 'name', 'update']
+>>> b.digest
+<built-in method digest of _hashlib.HASH object at 0x0133B020>
+>>> print b.digest
+<built-in method digest of _hashlib.HASH object at 0x0133B020>
+>>> help(md5)
+Help on module md5:
+
+NAME
+    md5
+
+FILE
+    f:\python25\lib\md5.py
+
+DESCRIPTION
+    # $Id$
+    #
+    #  Copyright (C) 2005   Gregory P. Smith (greg@electricrain.com)
+    #  Licensed to PSF under a Contributor Agreement.
+
+FUNCTIONS
+    md5 = openssl_md5(...)
+        Returns a md5 hash object; optionally initialized with a string
+    
+    new = openssl_md5(...)
+        Returns a md5 hash object; optionally initialized with a string
+
+DATA
+    blocksize = 1
+    digest_size = 16
+
+
+>>> 
+>>> help(md5.md5)
+Help on built-in function openssl_md5 in module _hashlib:
+
+openssl_md5(...)
+    Returns a md5 hash object; optionally initialized with a string
+
+>>> md5.md5('admin')
+<md5 HASH object @ 0133B8E0>
+>>> a=md5.md5('admin')<md5 HASH object @ 0133B8E0>
+SyntaxError: invalid syntax
+>>> a=md5.md5('admin')
+>>> type(a)
+<type '_hashlib.HASH'>
+>>> dir(a)
+['__class__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'block_size', 'copy', 'digest', 'digest_size', 'digestsize', 'hexdigest', 'name', 'update']
+>>> a.hexdigest
+<built-in method hexdigest of _hashlib.HASH object at 0x0133B200>
+>>> print a.hexdigest
+<built-in method hexdigest of _hashlib.HASH object at 0x0133B200>
+>>> print name
+
+Traceback (most recent call last):
+  File "<pyshell#135>", line 1, in <module>
+    print name
+NameError: name 'name' is not defined
+>>> a.update
+<built-in method update of _hashlib.HASH object at 0x0133B200>
+>>> print a
+<md5 HASH object @ 0133B200>
+>>> help(a.digest)
+Help on built-in function digest:
+
+digest(...)
+    Return the digest value as a string of binary data.
+
+>>> b=(a.digest)
+>>> b
+<built-in method digest of _hashlib.HASH object at 0x0133B200>
+>>> print b
+<built-in method digest of _hashlib.HASH object at 0x0133B200>
+>>> b=(a.digest())
+>>> b
+'!#/)zW\xa5\xa7C\x89J\x0eJ\x80\x1f\xc3'
+>>> print b
+!#/)zW��C�JJ�?
+>>> print b
+!#/)zW��C�JJ�?
+>>> b.hex
+
+Traceback (most recent call last):
+  File "<pyshell#146>", line 1, in <module>
+    b.hex
+AttributeError: 'str' object has no attribute 'hex'
+>>> b=a.hexdigest()
+>>> b
+'21232f297a57a5a743894a0e4a801fc3'
+>>> len(b)
+32
+>>> md5.hexdigest('admin')
+
+Traceback (most recent call last):
+  File "<pyshell#150>", line 1, in <module>
+    md5.hexdigest('admin')
+AttributeError: 'module' object has no attribute 'hexdigest'
+>>> md5.md5('admin')
+<md5 HASH object @ 0133B020>
+>>> ad=md5.md5('admin')
+>>> ad
+<md5 HASH object @ 01338B20>
+>>> ad.hexdigest()
+'21232f297a57a5a743894a0e4a801fc3'
+>>> ad.hexdigest()
+'21232f297a57a5a743894a0e4a801fc3'
+>>> c=ad.hexdigest()
+>>> c
+'21232f297a57a5a743894a0e4a801fc3'
+>>> d='21232f297a57a5a743894a0e4a801fc3'
+>>> c==d
+True
+>>> md5.md5('admin').hexdigest()
+'21232f297a57a5a743894a0e4a801fc3'
+>>> f=md5.md5('admin').hexdigest().upper()
+>>> f
+'21232F297A57A5A743894A0E4A801FC3'
+>>> def M(s):
+	return md5.md5(s).hexdigest()
+
+>>> M('admin')
+'21232f297a57a5a743894a0e4a801fc3'
+>>> M('admin')
+'21232f297a57a5a743894a0e4a801fc3'
+>>> M('admii')
+'6c4f82ad335fc6b56643ef4a4c0e97a1'
+>>> M('admin')
+'21232f297a57a5a743894a0e4a801fc3'
+>>> ================================ RESTART ================================
+>>> 
+命令帮助(help/? [命令]):
+=========================
+pdir  pfile  quit
+文件   目录   退�?
+
+=========================
+
+:-)p
+*** Unknown syntax: p
+:-)pfile sample.txt
+done:  sample.txt 	1 / 1
+:-)
